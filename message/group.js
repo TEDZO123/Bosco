@@ -44,7 +44,7 @@ module.exports = welcome = async (bosco, anu) => {
                 anu_user = v.vname || v.notify || num.split('@')[0]
                 time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
-                teks = `▢ *Hɪ* @${num.split('@')[0]}\n▢ *Bɪᴏ* : *${thu.status}*\n▢ *Mᴇᴍʙᴇʀs : ${memeg}*\n▢ *Wᴇʟᴄᴏᴍᴇ Tᴏ* \n *${mdata.subject}*\n▢ *Dᴏɴᴛ Fᴏʀɢᴇᴛ Dɪsᴄʀɪᴘᴛɪᴏɴ*\n ${time_wel} -  ${time_welc}`
+                teks = `∆ *Hɪ* @${num.split('@')[0]}\n∆ *Bɪᴏ* : *${thu.status}*\n∆ *Mᴇᴍʙᴇʀs : ${memeg}*\n∆*Wᴇʟᴄᴏᴍᴇ Tᴏ* \n *${mdata.subject}*\n∆ *Dᴏɴᴛ Fᴏʀɢᴇᴛ Dɪsᴄʀɪᴘᴛɪᴏɴ*\n∆  *Sᴘᴇᴇᴅ : ${latensie.toFixed(4)}* ${time_wel} -  ${time_welc}`
                 welcomeBut = [{buttonId:`${prefix}getdeskgc`,buttonText:{displayText:'WELCOME🚪'},type:1}, {buttonId:`${prefix}help`,buttonText:{displayText:'MENU'}, type:1}, {buttonId:`${prefix}alive`,buttonText:{displayText:'ALIVE'}, type:1}, {buttonId:`${prefix}h`,buttonText:{displayText:'🤘'}, type:1}]
                 welcomeButt = { contentText: ` `, footerText: `${teks}`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
                 bosco.sendMessage(mdata.id, welcomeButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
@@ -62,7 +62,7 @@ module.exports = welcome = async (bosco, anu) => {
                 out = `* Bʏᴇ Bʀᴏᴛʜᴇʀ* 👋\n@${num.split('@')[0]}\n *Rᴇsᴛ Nᴏᴡ Pᴇᴀᴄᴇ* ▢\n${time_wel} -  ${time_welc}`
                 goodbyeBut = [{buttonId:`${prefix}h`,buttonText:{displayText:'POO MY#₹*🚪'},type:1}, {buttonId:`${prefix}help`,buttonText:{displayText:'MENU'}, type:1}]
                 goodbyeButt = { contentText: ` `, footerText: `${out}`, buttons: goodbyeBut, headerType: 6, locationMessage: bosco3.message.locationMessage}
-                bosco.sendMessage(mdata.id, goodbyeButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "0@g.us" : [num], },})
+                bosco.sendMessage(mdata.id, goodbyeButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
             }
 		} catch (e) {
 			console.log('Error : %s', color(e, 'red'))
