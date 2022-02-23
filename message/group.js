@@ -30,7 +30,7 @@ module.exports = welcome = async (bosco, anu) => {
             }
             hehe = await getBuffer(pp_user)
             if (anu.action == 'add' && mem.includes(bosco.user.jid)) {
-            bosco.sendMessage(anu.jid, `hello bro I am A Bot 😎🌹 To use ${prefix}menu`, 'conversation')
+            bosco.sendMessage(anu.jid, `${prefix}menu`, 'conversation')
             }
              if (anu.action == 'add' && !mem.includes(bosco.user.jid)) {
              const mdata = await bosco.groupMetadata(anu.jid)
@@ -45,7 +45,7 @@ module.exports = welcome = async (bosco, anu) => {
                 time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
                 teks = `▢ *Hɪ* @${num.split('@')[0]}\n▢ *Bɪᴏ* : *${thu.status}*\n▢ *Mᴇᴍʙᴇʀs : ${memeg}*\n▢ *Wᴇʟᴄᴏᴍᴇ Tᴏ* \n *${mdata.subject}*\n▢ *Dᴏɴᴛ Fᴏʀɢᴇᴛ Dɪsᴄʀɪᴘᴛɪᴏɴ*\n ${time_wel} -  ${time_welc}`
-                welcomeBut = [{buttonId:`${prefix}getdeskgc`,buttonText:{displayText:'DISCRIPTION'},type:1}]
+                welcomeButt = [{buttonId:`${prefix}getdeskgc`,buttonText:{displayText:'MENU'},type:1}, {buttonId:`${prefix}menu`,buttonText:{displayText:'MENU'}, type:1}]
                 welcomeButt = { contentText: ` `, footerText: `${teks}`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
                 bosco.sendMessage(mdata.id, welcomeButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
                  }
