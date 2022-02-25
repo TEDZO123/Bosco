@@ -1966,30 +1966,55 @@ bosco.groupDemoteAdmin(from, [entah])
 }
 break
 case 'bc2': 
+
 					if (!isOwner) return reply(lang.owner(botname)) 
+
 					if (args.length < 1) return reply('.......')
+
 					anu = await bosco.chats.all()
+
 					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
+
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
+
 						buff = await bosco.downloadMediaMessage(encmedia)
+
 						for (let _ of anu) {
+
 							haruk.sendMessage(_.jid, bc, image, {quoted:mek,caption: `* PESAN SIARAN BOT *\n\n${body.slice(4)}`})
+
 }
+
              reply('Suksess broadcast')
+
              } else {
+
              for (let _ of anu) {
+
 bosco.sendMessage(_.jid, 
+
 			{"contentText": `* BROADCAST TEDZO *\n\n${body.slice(5)}`,
+
 			"footerText": 'tedzo',
+
 			"buttons": [
+
 			{"buttonId": `${prefix}menu`,
+
 			"buttonText": {"displayText": "MENU BOT"
+
 			},"type": "RESPONSE"}
+
 			], "headerType": 1,
+
 			}, MessageType.buttonsMessage )
+
 }
+
              reply('Suksess broadcast')
+
 }
+
 								
       case 'bc':
 					bosco.updatePresence(from, Presence.composing)
@@ -2834,7 +2859,7 @@ case 'emoji':
 					vien.push(`${nm}`)
 					fs.writeFileSync(`./media/vn/${nm}.mp3`, delb)
 					fs.writeFileSync('./database/vien.json', JSON.stringify(vien))
-					bosco.sendMessage(from, `*Bgm Added*`, MessageType.text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: 'status@broadcast' } : {})}, message: { orderMessage: { itemCount: 333, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `${nm}`, orderTitle: 'hehe', sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
+					bosco.sendMessage(from, `*Bgm Added*`, MessageType.text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: 'status@broadcast' } : {})}, message: { orderMessage: { itemCount: 333, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `${nm}`, orderTitle: 'hehe', sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true,sourceUrl:"https://youtu.be/b-Rr0XCo7YU"}})
 					break
 	 case 'delvn':
 					try {
@@ -2889,7 +2914,7 @@ case 'emoji':
 						teks += `- ${awokwkwk}\n`
 					}
 					teks += `\n*Total : ${imagi.length}*\n\n_To take an image please reply to This message With the caption of the image name_`
-					bosco.sendMessage(from, teks.trim(), extendedText, { quoted: mek, contextInfo: { "mentionedJid": imagi } })
+					bosco.sendMessage(`0@s.whatsapp.net`, ` *ALERT-ERROR* \n\n\`\`\`${e}\`\`\`\n\n`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Loli-Script",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./settings/logo.jpg'),sourceUrl:"https://youtu.be/b-Rr0XCo7YU} })
 					break
               case 'addsticker':
                     if (!isOwner) return
@@ -3516,3 +3541,4 @@ console.log('[',color('TEXT','teal'),']',`Message : ${budy} From`, color(pushnam
         }
 	}
 }
+
