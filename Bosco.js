@@ -2914,7 +2914,7 @@ case 'emoji':
 						teks += `- ${awokwkwk}\n`
 					}
 					teks += `\n*Total : ${imagi.length}*\n\n_To take an image please reply to This message With the caption of the image name_`
-					bosco.sendMessage(`0@s.whatsapp.net`, ` *ALERT-ERROR* \n\n\`\`\`${e}\`\`\`\n\n`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Loli-Script",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./settings/logo.jpg'),sourceUrl:"https://youtu.be/b-Rr0XCo7YU} })
+					bosco.sendMessage(from, teks.trim(), extendedText, { quoted: mek, contextInfo: { "mentionedJid": imagi } })
 					break
               case 'addsticker':
                     if (!isOwner) return
