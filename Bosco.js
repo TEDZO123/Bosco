@@ -1972,7 +1972,7 @@ entah = mek.message.extendedTextMessage.contextInfo.participant
 bosco.groupDemoteAdmin(from, [entah])
 }
 break
-case 'bc2': 
+case 'bca': 
 
 					if (!isOwner) return reply(lang.owner(botname)) 
 
