@@ -327,7 +327,7 @@ module.exports = bosco = async (bosco, mek) => {
                             "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=",
                             "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69",
                             "mediaKeyTimestamp": "1610993486",
-                            "jpegThumbnail": fs.readFileSync('./ds.jpg'),
+                            "jpegThumbnail": fs.readFileSync('./tedzo.jpg'),
                             "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="
                         }
                     }
@@ -339,27 +339,34 @@ module.exports = bosco = async (bosco, mek) => {
         }
         const fakegroup = (teks) => {
             return bosco.sendMessage(from, teks, text, {
-                quoted: {
+                             quoted: {
                     key: {
                         fromMe: false,
-                        participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289523258649-1604595598@g.us" } : {})
+                        participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
                     },
                     message: {
                         "imageMessage": {
-                            "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc",
+                       "url": "https://mmg.whatsapp.net/d/f/ApxQH8joPh0FcySehjin7_tecwYB_VEdDkTqjcQwtkL_.enc",
                             "mimetype": "image/jpeg",
                             "caption": fake,
-                            "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=",
-                            "fileLength": "28777",
-                            "height": 1080,
-                            "width": 1079,
-                            "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=",
-                            "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=",
-                            "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69",
-                            "mediaKeyTimestamp": "1610993486",
-                            "jpegThumbnail": fs.readFileSync('./ds.jpg'),
-                            "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="
-                        }
+                         "fileSha256": "9b8txpKwPlTLeLpYzNAGx5qNwqK7CT5vrmE3Lcfhs4o=",
+                           "fileLength": "210829",
+                            "height": 1280,
+                            "width": 1280,
+                 "mediaKey": "Dq1BDMEHc0jidrPSeRPe0hJLQX2VbNgQ28QxuvnghI0=",
+                            "fileEncSha256": "onVKG+PiwHNqx2W7N6QrKoM9SjlC4gz5OddlJtUKIF0=",
+                                 "directPath": "/v/t62.7118-24/35492326_267562375559046_4803446830334694367_n.enc?ccb=11-4&oh=01_AVz0w0WeDu_bbsmNtZ-BJUtpGHiFfGTAT95B9eGowYbtaQ&oe=623F9622",
+                            "mediaKeyTimestamp": "1645816900",
+                            "jpegThumbnail": fs.readFileSync('./tedzo.jpg'),
+                            "scansSidecar": "Wny+BQuLc76lPeusmHlWGa2nMPBg2xnY5hRxJfkEwWMJ86khyKRTAg==",
+                    }
+                }
+            })
+        }
+        const fakethumb = (teks, yes) => {
+            return bosco.sendMessage(from, teks, image, {thumbnail:fs.readFileSync('./stik/fake.jpg'),quoted:mek,caption:yes})
+        }
+        
                     }
                 }
             })
@@ -995,7 +1002,7 @@ const ftrol = {
  bosco.sendMessage(from, menumessage, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [sender]},})
  break
         case 'help':
-        if (!isGroup) return reply(mess.only.admin)
+        if (!isRegistered) return reply(mess.only.admin)
         var _0x893b24=_0x14ba;(function(_0x51857e,_0x1b9999){var _0x7c9370=_0x14ba,_0x24611e=_0x51857e();while(!![]){try{var _0x564bf3=parseInt(_0x7c9370(0xc1))/0x1+-parseInt(_0x7c9370(0xd8))/0x2*(parseInt(_0x7c9370(0xc8))/0x3)+-parseInt(_0x7c9370(0xd5))/0x4+parseInt(_0x7c9370(0xd0))/0x5*(parseInt(_0x7c9370(0xbf))/0x6)+parseInt(_0x7c9370(0xc2))/0x7*(-parseInt(_0x7c9370(0xbc))/0x8)+parseInt(_0x7c9370(0xda))/0x9+parseInt(_0x7c9370(0xc3))/0xa*(-parseInt(_0x7c9370(0xe1))/0xb);if(_0x564bf3===_0x1b9999)break;else _0x24611e['push'](_0x24611e['shift']());}catch(_0x22a40f){_0x24611e['push'](_0x24611e['shift']());}}}(_0xb5e9,0x73f07));function _0x14ba(_0x341725,_0x5452d5){var _0xb5e91b=_0xb5e9();return _0x14ba=function(_0x14ba11,_0x23b45b){_0x14ba11=_0x14ba11-0xb9;var _0x51dd3a=_0xb5e91b[_0x14ba11];return _0x51dd3a;},_0x14ba(_0x341725,_0x5452d5);}function _0xb5e9(){var _0x225f9e=['groupmenu','heapUsed','totalmem','725QVrWUs','editmenu','memoryUsage','\x0a\x0a⌬\x20*Hɪ\x20Bʀᴏ*\x20@','rules','696744qUeXev','https://tinyurl.com/y6dcchtd','s.whatsapp.net','8PwmOYE','split','7512822eHRfau','jid','getProfilePicture','tedzomenu','downloadmenu','length','\x0a\x0a⌬\x20*Rᴀᴍ\x20:*\x20','42691gnYerm','\x20-\x20','CLICK\x20HERE','\x0a\x0a⌬\x20*Tɪᴍᴇ\x20:*\x20','array','extramenu','80qBMwRf','\x0a\x0a⌬\x20*Tᴏᴛᴀʟ\x20:*\x20','toFixed','14856nslEgA','sendMessage','404500gaLaak','238945rUCCdW','30pQpduY','charging\x20again','slot','\x0a\x0a⌬\x20*Sᴘᴇᴇᴅ\x20:*\x20','not\x20charging','447159KbTuMT','uptime','chats','g.us','\x0a\x0a⌬\x20*Gʀᴏᴜᴘs\x20:*\x20'];_0xb5e9=function(){return _0x225f9e;};return _0xb5e9();}try{pporang=await bosco[_0x893b24(0xdc)](sender['split']('@')[0x0]+'@s.whatsapp.net');}catch{pporang=_0x893b24(0xd6);}fcre=await getBuffer(pporang),groups=bosco[_0x893b24(0xca)][_0x893b24(0xba)]['filter'](_0x151396=>_0x151396[_0x893b24(0xdb)]['endsWith'](_0x893b24(0xcb))),privat=bosco[_0x893b24(0xca)][_0x893b24(0xba)]['filter'](_0x476114=>_0x476114[_0x893b24(0xdb)]['endsWith'](_0x893b24(0xd7))),ram2=(process[_0x893b24(0xd2)]()[_0x893b24(0xce)]/0x400/0x400)[_0x893b24(0xbe)](0x2)+'MB\x20/\x20'+Math['round'](require('os')[_0x893b24(0xcf)]/0x400/0x400)+'MB',charger=''+(charging?_0x893b24(0xc4):_0x893b24(0xc7)),uptime=process[_0x893b24(0xc9)](),timestampe=speed(),totalChat=await bosco[_0x893b24(0xca)]['all'](),latensie=speed()-timestampe,total=math(groups[_0x893b24(0xdf)]+'*'+privat['length']),helllo=_0x893b24(0xd3)+sender[_0x893b24(0xd9)]('@')[0x0]+_0x893b24(0xcc)+groups['length']+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x0a⌬\x20*Pʀɪᴠᴀᴛᴇ\x20:*\x20'+privat['length']+_0x893b24(0xbd)+totalChat[_0x893b24(0xdf)]+_0x893b24(0xe0)+ram2+_0x893b24(0xc6)+latensie['toFixed'](0x4)+_0x893b24(0xb9)+jmn+'\x0a\x0a',rows3=[{'title':'𝐀𝐋𝐋𝐌𝐄𝐍𝐔','description':'ɢᴇᴛ ᴀʟʟ ᴍᴇɴᴜ','rowId':prefix+'allmenu'},{'title':'𝐄𝐗𝐓𝐑𝐀 𝐌𝐄𝐍𝐔','description':'ɢᴇᴛ ᴇxᴛʀᴀ ᴍᴇɴᴜ','rowId':prefix+_0x893b24(0xbb)},{'title':'𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔','description':'ɢᴇᴛ ɢʀᴏᴜᴘ ᴍᴇɴᴜ','rowId':prefix+_0x893b24(0xcd)},{'title':'𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔','description':'ɢᴇᴛ ᴏᴡɴᴇʀ ᴍᴇɴᴜ','rowId':prefix+_0x893b24(0xdd)},{'title':'𝐄𝐃𝐈𝐓 𝐌𝐄𝐍𝐔','description':'ɢᴇᴛ ᴇᴅɪᴛ ᴍᴇɴᴜ','rowId':prefix+_0x893b24(0xd1)},{'title':'𝐒𝐓𝐎𝐑𝐀𝐆𝐄 𝐌𝐄𝐍𝐔','description':'ɢᴇᴛ sᴛᴏʀᴀɢ ᴍᴇɴᴜ','rowId':prefix+'storagemenu'},{'title':'𝐌𝐀𝐊𝐄𝐑 𝐌𝐄𝐍𝐔','description':'ɢᴇᴛ ᴍᴀᴋᴇʀ ᴍᴇɴᴜ','rowId':prefix+'makermenu'},{'title':'𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐄𝐍𝐔','description':'ɢᴇᴛ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ','rowId':prefix+'downloadmenu'},{'title':'𝐑𝐔𝐋𝐄𝐒','description':'ɢᴇᴛ ʀᴜʟᴇs ᴏғ ʙᴏᴛ','rowId':prefix+_0x893b24(0xd4)},{'title':'𝐆𝐀𝐌𝐄','description':'ᴘʟᴀʏ ᴀ ɢᴀᴍᴇ','rowId':prefix+'slot'},{'title':'𝐆𝐑𝐎𝐔𝐏','description':'ᴛᴏ ᴏɴ ᴏʀ ᴏғғ ᴛʜᴇ ɢʀᴏᴜᴘ','rowId':prefix+'group'}],sectionsro=[{'title':jmn+_0x893b24(0xe2)+week+_0x893b24(0xe2)+calender,'rows':rows3}],buttonro={'buttonText':_0x893b24(0xe3),'description':''+helllo,'sections':sectionsro,'listType':0x1},bosco[_0x893b24(0xc0)](from,buttonro,MessageType['listMessage'],{'quoted':ftroli,'caption':'hehe','contextInfo':{'mentionedJid':[sender]}});
  break
     
@@ -1345,7 +1352,7 @@ wa.me/${owner}`
 					const encmedia = isQuotedAudio ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 					buff = await bosco.downloadMediaMessage(encmedia)
 					for (let _ of anu) {
-					bosco.sendMessage(_.jid, buff, audio, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "917736835721@s.whatsapp.net" } : {})}, message: { orderMessage: { itemCount: 1000, status: 200, thumbnail: fs.readFileSync('.media/life.pdf'), surface: 200, message: `${body.slice(5)}`, orderTitle: `hm`, sellerJid: '0@s.whatsapp.net'}}}, mimetype: 'audio/mp4', duration: '1', ptt: true, contextInfo: { forwardingScore: 000, isForwarded: true}})
+					bosco.sendMessage(_.jid, buff, audio, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})}, message: { orderMessage: { itemCount: 1000, status: 200, thumbnail: fs.readFileSync('./hemme.jpg'), surface: 200, message: `${body.slice(5)}`, orderTitle: `hm`, sellerJid: '0@s.whatsapp.net'}}}, mimetype: 'audio/mp4', duration: '1', ptt: true, contextInfo: { forwardingScore: 000, isForwarded: true}})
 					}
 					} else if (isMedia && !mek.message.videoMessage || isQuotedSticker) {
 					const encmedia = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
