@@ -339,34 +339,27 @@ module.exports = bosco = async (bosco, mek) => {
         }
         const fakegroup = (teks) => {
             return bosco.sendMessage(from, teks, text, {
-                             quoted: {
+                quoted: {
                     key: {
                         fromMe: false,
-                        participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
+                        participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289523258649-1604595598@g.us" } : {})
                     },
                     message: {
                         "imageMessage": {
-                       "url": "https://mmg.whatsapp.net/d/f/ApxQH8joPh0FcySehjin7_tecwYB_VEdDkTqjcQwtkL_.enc",
+                            "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc",
                             "mimetype": "image/jpeg",
                             "caption": fake,
-                         "fileSha256": "9b8txpKwPlTLeLpYzNAGx5qNwqK7CT5vrmE3Lcfhs4o=",
-                           "fileLength": "210829",
-                            "height": 1280,
-                            "width": 1280,
-                 "mediaKey": "Dq1BDMEHc0jidrPSeRPe0hJLQX2VbNgQ28QxuvnghI0=",
-                            "fileEncSha256": "onVKG+PiwHNqx2W7N6QrKoM9SjlC4gz5OddlJtUKIF0=",
-                                 "directPath": "/v/t62.7118-24/35492326_267562375559046_4803446830334694367_n.enc?ccb=11-4&oh=01_AVz0w0WeDu_bbsmNtZ-BJUtpGHiFfGTAT95B9eGowYbtaQ&oe=623F9622",
-                            "mediaKeyTimestamp": "1645816900",
-                            "jpegThumbnail": fs.readFileSync('./tedzo.jpg'),
-                            "scansSidecar": "Wny+BQuLc76lPeusmHlWGa2nMPBg2xnY5hRxJfkEwWMJ86khyKRTAg==",
-                    }
-                }
-            })
-        }
-        const fakethumb = (teks, yes) => {
-            return bosco.sendMessage(from, teks, image, {thumbnail:fs.readFileSync('./stik/fake.jpg'),quoted:mek,caption:yes})
-        }
-        
+                            "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=",
+                            "fileLength": "28777",
+                            "height": 1080,
+                            "width": 1079,
+                            "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=",
+                            "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=",
+                            "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69",
+                            "mediaKeyTimestamp": "1610993486",
+                            "jpegThumbnail": fs.readFileSync('./ds.jpg'),
+                            "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="
+                        }
                     }
                 }
             })
@@ -1352,7 +1345,7 @@ wa.me/${owner}`
 					const encmedia = isQuotedAudio ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 					buff = await bosco.downloadMediaMessage(encmedia)
 					for (let _ of anu) {
-					bosco.sendMessage(_.jid, buff, audio, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})}, message: { orderMessage: { itemCount: 1000, status: 200, thumbnail: fs.readFileSync('./hemme.jpg'), surface: 200, message: `${body.slice(5)}`, orderTitle: `hm`, sellerJid: '0@s.whatsapp.net'}}}, mimetype: 'audio/mp4', duration: '1', ptt: true, contextInfo: { forwardingScore: 000, isForwarded: true}})
+					bosco.sendMessage(_.jid, buff, audio, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "917736835721@s.whatsapp.net" } : {})}, message: { orderMessage: { itemCount: 1000, status: 200, thumbnail: fs.readFileSync('.media/life.pdf'), surface: 200, message: `${body.slice(5)}`, orderTitle: `hm`, sellerJid: '0@s.whatsapp.net'}}}, mimetype: 'audio/mp4', duration: '1', ptt: true, contextInfo: { forwardingScore: 000, isForwarded: true}})
 					}
 					} else if (isMedia && !mek.message.videoMessage || isQuotedSticker) {
 					const encmedia = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
@@ -1972,7 +1965,7 @@ entah = mek.message.extendedTextMessage.contextInfo.participant
 bosco.groupDemoteAdmin(from, [entah])
 }
 break
-case 'bca': 
+case 'bc2': 
 
 					if (!isOwner) return reply(lang.owner(botname)) 
 
@@ -3548,4 +3541,3 @@ console.log('[',color('TEXT','teal'),']',`Message : ${budy} From`, color(pushnam
         }
 	}
 }
-
