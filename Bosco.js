@@ -2192,6 +2192,120 @@ break
                teks = `*YOUR APIKEY*\n\n➸ Ussername= ${anu.result.username}\n➸ Request= ${anu.result.requests}\n➸ Today= ${anu.result.today}\n➸ Account Type= ${anu.result.account_type}\n➸ Expired= ${anu.result.expired}\n➸ API = https://lolhuman.herokuapp.com`
                bosco.sendMessage(from, teks, text, {quoted: mek})
                break
+case 'xnxxsearch': {
+if (!text) throw 'Judul Bokep Nya Mana'
+m.reply(mess.wait)
+webapi = await fetchJson(api('bosco', '/xnxxsearch', { query: text }, 'apikey'))
+resultnya = webapi.result.result
+for (var x of resultnya) {
+txt =`Title : ${x.title}\nInfo : ${x.info}\nLink : ${x.link}`
+}
+m.reply(txt)
+}
+break
+
+case 'xnxxdl': {
+if (!text) throw 'Link Video Bokep Nya Mana ?'
+m.reply(mess.wait)
+webapi = await fetchJson(api('bosco', '/xnxxdl', { url: text }, 'apikey'))
+imagenya = await getBuffer(webapi.result.result.image)
+var template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+templateMessage: {
+hydratedTemplate: {
+locationMessage: { 
+degreesLatitude: 0,
+degreesLongitude: 0, 
+jpegThumbnail: imagenya,
+},
+hydratedContentText: `Title : ${webapi.result.result.title}\nDuration : ${webapi.result.result.duration}\nVideo Type : ${webapi.result.result.videoType}\nVideo Width : ${webapi.result.result.videoWidth}\nVideo Height : ${webapi.result.result.videoHeight}\nInfo : ${webapi.result.result.info}`,
+hydratedFooterText: `𝑺𝒂𝒏𝒛𝒚`,
+hydratedButtons: [{
+urlButton: {
+displayText: '𝑹𝒆𝒔 𝑨𝒑𝒊',
+url: `https://sanzykey.herokuapp.com/api`
+}
+}, {
+urlButton: {
+displayText: '𝒀𝒐𝒖𝒕𝒖𝒃𝒆 𝑶𝒘𝒏𝒆𝒓',
+url: 'https://youtube.com/c/sanzyyt'
+}
+}, {
+quickReplyButton: {
+displayText: 'LOW',
+id: `low ${q}`
+}
+}, {
+quickReplyButton: {
+displayText: 'HIGH',
+id: `high ${q}`
+}
+}, {
+quickReplyButton: {
+displayText: 'HLS',
+id: `hls ${q}`
+}
+}]
+}
+}
+}), { userJid: m.chat, quoted: ftroli })
+bosco.relayMessage(m.chat, template.message, { messageId: template.key.id })
+}
+break
+case 'low': {
+if (!text) throw 'Link Video Bokep Nya Mana ?'
+m.reply(mess.wait)
+webapi = await fetchJson(api('bosco', '/xnxxdl', { url: text }, 'apikey'))
+bosco.sendMessage(m.chat, { video: { url: webapi.result.result.files.low }, caption: `Done Nih... Don't forget to subscribe my YouTube : sanzy yt`}, { quoted: ftroli })
+}
+break
+case 'high': {
+if (!text) throw 'Link Video Bokep Nya Mana ?'
+m.reply(mess.wait)
+webapi = await fetchJson(api('bosco', '/xnxxdl', { url: text }, 'apikey'))
+bosco.sendMessage(m.chat, { video: { url: webapi.result.result.files.high }, caption: `Done Nih... Don't forget to subscribe my YouTube : sanzy yt`}, { quoted: ftroli })
+}
+break
+case 'hls': {
+if (!text) throw 'Link Video Bokep Nya Mana ?'
+m.reply(mess.wait)
+webapi = await fetchJson(api('zeroyt7', '/xnxxdl', { url: text }, 'apikey'))
+bosco.sendMessage(m.chat, { video: { url: webapi.result.result.files.hls }, caption: `Done Nih... Don't forget to subscribe my YouTube : sanzy yt`}, { quoted: ftroli })
+}
+break
+
+case 'artinama': {
+if (!text) throw 'Nama Nya Mana ?'
+m.reply(mess.wait)
+webapi = await fetchJson(api('zeroyt7', '/artinama', { nama: text }, 'apikey'))
+txt =`Arti : ${webapi.result.arti}`
+m.reply(txt)
+}
+break
+case 'cariresep': {
+if (!text) throw 'Mau Cari Resep Apa ?'
+m.reply(mess.wait)
+webapi = await fetchJson(api('zeroyt7', '/cariresep', { query: text }, 'apikey'))
+resultnya = webapi.result.data
+for (var x of resultnya) {
+txt =`Creator : ${webapi.result.creator}
+Judul : ${x.judul}
+Link : ${x.link}`
+}
+m.reply(txt)
+}
+break
+
+case 'liriklagu': {
+if (!text) throw 'Judul Lagu Nya Apa ?'
+m.reply(mess.wait)
+webapi = await fetchJson(api('zeroyt7', '/liriklagu', { query: text }, 'apikey'))
+resultnya = webapi.result
+for (var x of resultnya) {
+txt =`Lirik : ${x.result}`
+}
+m.reply(txt)
+}
+break
        case 'pinterest':
          case 'pin':
               if (args.length < 1) return reply(`${prefix}Denis Ser`)
