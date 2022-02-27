@@ -1337,6 +1337,21 @@ wa.me/${owner}`
             alasan = anuu
             fgclink('*BOT OFFLINE*')
             break   
+            case 'pornhub':
+					if (args.length >= 2 && arks.includes('|')) {
+						if (arg.split('|')[0].length >= 10 || arg.split('|')[1].length >= 10) return await kill.reply(from, 'Max: 10 letras/letters p/frase - phrase.', id)
+						await kill.reply(from, mess.wait() + '\n\n20+ s.', id)
+						try {
+							await maker.textpro("https://textpro.me/pornhub-style-logo-online-generator-free-977.html", arg.split('|')).then(async (data) => {
+								await kill.sendFileFromUrl(from, data, 'textpro.jpg', '', id)
+							})
+						} catch (error) {
+							tools('others').reportConsole(command, error)
+							await kill.reply(from, mess.fail(command, error, time), id)
+						}
+					} else return await kill.reply(from, mess.noargs() + 'palavras/words/números/numbers.' + '\n\n' + mess.argsbar() + 'use 1 "|".', id)
+				break
+
           case 'tobc':
 					bosco.updatePresence(from, Presence.composing)
 					if (!isOwner) return reply(mess.only.owner)
