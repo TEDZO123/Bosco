@@ -2115,7 +2115,6 @@ break
 //------------------< Public/Self >-------------------
 
         case 'public':
-          	if (!isOwner) return
           	if (!mek.key.fromMe) return 
           	if (banChats === false) return 
           	banChats = false
