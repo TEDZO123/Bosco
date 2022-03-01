@@ -269,7 +269,7 @@ module.exports = bosco = async (bosco, mek) => {
              bosco.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = bosco.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JqUKjz9djTS9mDmxA2ph2t', "groupName": `TEDZO BOTS`, "footerText": "*tedzo Ser*", "jpegThumbnail": dfrply, "caption": teks}}, {quoted:fvid})
+        	grup = bosco.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JqUKjz9djTS9mDmxA2ph2t', "groupName": `TEDZO BOTS`, "footerText": "*tedzo Ser*", "jpegThumbnail": dfrply, "caption": teks}}, {quoted:fvideo})
             bosco.relayWAMessage(grup)
         }
         try {
@@ -316,19 +316,34 @@ module.exports = bosco = async (bosco, mek) => {
                     },
                     message: {
                         "imageMessage": {
-                            "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc",
-                            "mimetype": "image/jpeg",
-                            "caption": fake,
-                            "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=",
-                            "fileLength": "28777",
-                            "height": 1080,
-                            "width": 1079,
-                            "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=",
-                            "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=",
-                            "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69",
-                            "mediaKeyTimestamp": "1610993486",
-                            "jpegThumbnail": fs.readFileSync('./ds.jpg'),
-                            "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="
+                    {
+   "stanzaId": "27B3ABF1B972213A7BE963CFADF6628B",
+   "participant": "18608549315@s.whatsapp.net",
+   "quotedMessage": {
+      "imageMessage": {
+         "url": "https://mmg.whatsapp.net/d/f/AhVjG1-xP9ch_IXBHQHdL-wE01Odq8woEhL_YZ1GfUGg.enc",
+         "mimetype": "image/jpeg",
+         "fileSha256": "AGBuxoxkVrGFNT5iOtiVVb8kcOUBxRrCbVp+6AO7S3g=",
+         "fileLength": "110230",
+         "height": 1435,
+         "width": 1600,
+         "mediaKey": "PzqpnLe1+NGvvV8GBm76zHVLDAh2kW13HdHjt29twpg=",
+         "fileEncSha256": "DylfvROOslean86CPd/9ZoiUpjhbVBFA6Do2qAasicw=",
+         "directPath": "/v/t62.7118-24/40743306_994249164838749_108341451189984262_n.enc?ccb=11-4&oh=01_AVyVNrP84iEF1Aa27CrcGQLRC5vypR8EQ2yluGBhCMyhBA&oe=623B28B6",
+         "mediaKeyTimestamp": "1645496665",
+         "jpegThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAEAASAMBIgACEQEDEQH/xAAuAAACAwEAAAAAAAAAAAAAAAAAAgEDBAUBAQEBAQAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAOcSFNNkCaM7GklhRhSR0w3pWrVNYXtIkEhJOOb1Z6Zm3hVNOjDu1xUYWc2nnikBdW8zonQ5vSvKCQ//xAAhEAEAAgEFAAIDAAAAAAAAAAABAAIRAxASITEyQQQgQv/aAAgBAQABPwA21HHW9b8jG+NsS/ynHarhhMQ2CX+bAME1cQ9gdG4TE1qOeUrdrHkspQ9tDyY350P6jqVRDDFr71OZG9po3bKbpkjp8c9fcxatliYIiBj2Y87mnbjb9PyL+VIqzGXEahUyy9QxNMzc3fJqW5WXfhZMHZLmKB9wcJKuajGf/8QAGREBAAIDAAAAAAAAAAAAAAAAAQARECAw/9oACAECAQE/AOSy2XqZ/8QAHhEAAQQCAwEAAAAAAAAAAAAAAgABEBESICExUXH/2gAIAQMBAT8A0uGTyI5JxH4sfdTp+hrif//Z",
+         "scansSidecar": "nOh8gkNgqAq6kEVFxp1+m5QRnn9rVlXQxVN3H5tsPgj6o1Qqd4eIew==",
+         "scanLengths": [
+            17095,
+            50274,
+            14841,
+            28020
+         ],
+         "midQualityFileSha256": "tjKxWQet7ZiMtXu86CmcKIySXnJ5bWVGxlKI8zpN1vA="
+      }
+   },
+   "mentionedJid": [
+      "18608549315@s.whatsapp.net"
                         }
                     }
                 }
@@ -478,7 +493,7 @@ bosco.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 }
 
 // VIDEO
-const fvid = {
+const fvideo = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
@@ -517,7 +532,7 @@ const fvid = {
             const ftroli = {
                   key: {participant: "0@s.whatsapp.net", ...(from ? { remoteJid: "0@s.whatsapp.net" } : {})},message: { "orderMessage": { "itemCount" : '2021', "status": '1', "surface": '1', "message": `▢ ${fake} ▢`, "orderTitle": 'Bang', "thumbnail": denis, "sellerJid": '0@s.whatsapp.net'}}}
             //FAKEREPLY VIDEO
-            const fvideo = {
+            const fvideoeo = {
                   key: {fromMe: false,participant: `62895619083555@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {}) },message: { "videoMessage": { "title":"fake","h": `Hmm`,'seconds': '359996400', 'caption': `${fake}`,'jpegThumbnail': fs.readFileSync('./life.jpg')}}}
             //FAKEREPLY GROUPINVITE
             const fgc = {
@@ -558,7 +573,7 @@ const ftrol = {
                           }
                         }
                       }
-const fvid = {
+const fvideo = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
