@@ -292,19 +292,19 @@ module.exports = bosco = async (bosco, mek) => {
             return Math.floor(Math.random() * angka) + 1
         }
         const reply = (teks) => {
-	      bosco.sendMessage(from, teks, text, { thumbnail: denis, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: false, "externalAdReply": { "title": `${' '}FOLLOW MY IG : Tedzo SIR${''}${''}`, "body": `TEDZO SIR BOT`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}},})
+	      bosco.sendMessage(from, teks, text, { thumbnail: denis, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: false, "externalAdReply": { "title": `${' '}FOLLOW MY IG : ${''}${''}`, "body": `https://instagram.com/___azlu___aslam?utm_medium=copy_link`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}},})
         }
         const sendMess = (hehe, teks) => {
            bosco.sendMessage(hehe, teks, text)
         }
         const mentions = (teks, memberr, id) => {
-           (id == null || id == undefined || id == false) ? bosco.sendMessage(from, {text: teks.trim(), jpegThumbnail: fs.readFileSync('./media/wpmobile.jpg')}, extendedText, { sendEphemeral: true, contextInfo: { "mentionedJid": memberr } }) : bosco.sendMessage(from, {text: teks.trim(), jpegThumbnail: fs.readFileSync('./media/wpmobile.jpg')}, extendedText, { sendEphemeral: true, quoted: mek, contextInfo: { "mentionedJid": memberr } })
+           (id == null || id == undefined || id == false) ? bosco.sendMessage(from, {text: teks.trim(), jpegThumbnail: fs.readFileSync('./tedzo.jpg')}, extendedText, { sendEphemeral: true, contextInfo: { "mentionedJid": memberr } }) : bosco.sendMessage(from, {text: teks.trim(), jpegThumbnail: fs.readFileSync('./tedzo.jpg')}, extendedText, { sendEphemeral: true, quoted: mek, contextInfo: { "mentionedJid": memberr } })
         }
         const sendText = (from, text) => {
            bosco.sendMessage(from, text, MessageType.text)
         }
         const textImg = (teks) => {
-           return bosco.sendMessage(from, teks, text, {quoted: mek, thumbnail: fs.readFileSync('./media/wpmobile.jpg')})
+           return bosco.sendMessage(from, teks, text, {quoted: mek, thumbnail: fs.readFileSync('./tedzo.jpg')})
         }
         
         const fakestatus = (teks) => {
@@ -327,7 +327,7 @@ module.exports = bosco = async (bosco, mek) => {
                             "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=",
                             "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69",
                             "mediaKeyTimestamp": "1610993486",
-                            "jpegThumbnail": fs.readFileSync('./ds.jpg'),
+                            "jpegThumbnail": fs.readFileSync('./tedzo.jpg'),
                             "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="
                         }
                     }
@@ -958,7 +958,7 @@ sendEphemeral: false,
 			const vname_ = bosco.contacts[i] != undefined ? bosco.contacts[i].vname || bosco.contacts[i].notify : undefined
 		     ini_list.push({
 			 "displayName": 'Owner TEDZO',
-			 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${bosco.user.name}`}\nORG: Pepe Ser;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Its me Pepe\nEND:VCARD`
+			 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${bosco.user.name}`}\nORG: aslu;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Its aslu\nEND:VCARD`
 			  })
 			  }
 			 hehe = await bosco.sendMessage(from, {
@@ -993,9 +993,6 @@ sendEphemeral: false,
  bosco.sendMessage(from, menumessage, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [sender]},})
  break
    
-        case 'poor':
-        var _0x893b24=_0x14ba;(function(_0x51857e,_0x1b9999){var _0x7c9370=_0x14ba,_0x24611e=_0x51857e();while(!![]){try{var _0x564bf3=parseInt(_0x7c9370(0xc1))/0x1+-parseInt(_0x7c9370(0xd8))/0x2*(parseInt(_0x7c9370(0xc8))/0x3)+-parseInt(_0x7c9370(0xd5))/0x4+parseInt(_0x7c9370(0xd0))/0x5*(parseInt(_0x7c9370(0xbf))/0x6)+parseInt(_0x7c9370(0xc2))/0x7*(-parseInt(_0x7c9370(0xbc))/0x8)+parseInt(_0x7c9370(0xda))/0x9+parseInt(_0x7c9370(0xc3))/0xa*(-parseInt(_0x7c9370(0xe1))/0xb);if(_0x564bf3===_0x1b9999)break;else _0x24611e['push'](_0x24611e['shift']());}catch(_0x22a40f){_0x24611e['push'](_0x24611e['shift']());}}}(_0xb5e9,0x73f07));function _0x14ba(_0x341725,_0x5452d5){var _0xb5e91b=_0xb5e9();return _0x14ba=function(_0x14ba11,_0x23b45b){_0x14ba11=_0x14ba11-0xb9;var _0x51dd3a=_0xb5e91b[_0x14ba11];return _0x51dd3a;},_0x14ba(_0x341725,_0x5452d5);}function _0xb5e9(){var _0x225f9e=['𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔','heapUsed','totalmem','725QVrWUs','𝐄𝐃𝐈𝐓 𝐌𝐄𝐍𝐔','memoryUsage','\x0a\x0a‣\x20*Hɪ\x20Bʀᴏ*\x20@','rules','696744qUeXev','https://bit.ly/3sC5w0G','s.whatsapp.net','8PwmOYE','split','7512822eHRfau','jid','getProfilePicture','𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔','𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐄𝐍𝐔','length','\x0a\x0a‣\x20*Rᴀᴍ\x20:*\x20','42691gnYerm','\x20-\x20','CLICK\x20HERE','\x0a\x0a‣\x20*Tɪᴍᴇ\x20:*\x20','array','𝐄𝐗𝐓𝐑𝐀 𝐌𝐄𝐍𝐔','80qBMwRf','\x0a\x0a‣\x20*Tᴏᴛᴀʟ\x20:*\x20','toFixed','14856nslEgA','sendMessage','404500gaLaak','238945rUCCdW','30pQpduY','charging\x20again','𝐆𝐀𝐌𝐄','\x0a\x0a‣\x20*Sᴘᴇᴇᴅ\x20:*\x20','not\x20charging','447159KbTuMT','uptime','chats','g.us','\x0a\x0a‣\x20*Gʀᴏᴜᴘs\x20:*\x20'];_0xb5e9=function(){return _0x225f9e;};return _0xb5e9();}try{pporang=await bosco[_0x893b24(0xdc)](sender['split']('@')[0x0]+'@s.whatsapp.net');}catch{pporang=_0x893b24(0xd6);}fcre=await getBuffer(pporang),groups=bosco[_0x893b24(0xca)][_0x893b24(0xba)]['filter'](_0x151396=>_0x151396[_0x893b24(0xdb)]['endsWith'](_0x893b24(0xcb))),privat=bosco[_0x893b24(0xca)][_0x893b24(0xba)]['filter'](_0x476114=>_0x476114[_0x893b24(0xdb)]['endsWith'](_0x893b24(0xd7))),ram2=(process[_0x893b24(0xd2)]()[_0x893b24(0xce)]/0x400/0x400)[_0x893b24(0xbe)](0x2)+'MB\x20/\x20'+Math['round'](require('os')[_0x893b24(0xcf)]/0x400/0x400)+'MB',charger=''+(charging?_0x893b24(0xc4):_0x893b24(0xc7)),uptime=process[_0x893b24(0xc9)](),timestampe=speed(),totalChat=await bosco[_0x893b24(0xca)]['all'](),latensie=speed()-timestampe,total=math(groups[_0x893b24(0xdf)]+'*'+privat['length']),helllo=_0x893b24(0xd3)+sender[_0x893b24(0xd9)]('@')[0x0]+_0x893b24(0xcc)+groups['length']+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x0a‣\x20*Pʀɪᴠᴀᴛᴇ\x20:*\x20'+privat['length']+_0x893b24(0xbd)+totalChat[_0x893b24(0xdf)]+_0x893b24(0xe0)+ram2+_0x893b24(0xc6)+latensie['toFixed'](0x4)+_0x893b24(0xb9)+jmn+'\x0a\x0a',rows3=[{'title':_0x893b24(0xbb),'description':'','rowId':prefix+_0x893b24(0xbb)},{'title':_0x893b24(0xcd),'description':'','rowId':prefix+_0x893b24(0xcd)},{'title':_0x893b24(0xdd),'description':'','rowId':prefix+_0x893b24(0xdd)},{'title':_0x893b24(0xd1),'description':'','rowId':prefix+_0x893b24(0xd1)},{'title':'𝐒𝐓𝐎𝐑𝐀𝐆𝐄 𝐌𝐄𝐍𝐔','description':'','rowId':prefix+'storagemenu'},{'title':_0x893b24(0xde),'description':'','rowId':prefix+'downloadmenu'},{'title':'𝐑𝐔𝐋𝐄𝐒','description':'','rowId':prefix+_0x893b24(0xd4)},{'title':_0x893b24(0xc5),'description':'','rowId':prefix+'slot'},{'title':'𝐌𝐀𝐊𝐄𝐑 𝐌𝐄𝐍𝐔','description':'','rowId':prefix+'maker'}],sectionsro=[{'title':jmn+_0x893b24(0xe2)+week+_0x893b24(0xe2)+calender,'rows':rows3}],buttonro={'buttonText':_0x893b24(0xe3),'description':''+helllo,'sections':sectionsro,'listType':0x1},bosco[_0x893b24(0xc0)](from,buttonro,MessageType['listMessage'],{'quoted':ftrol,'caption':'hehe','contextInfo':{'mentionedJid':[sender]}});
- break
     
     case 'gp':
      function _0x4663(){var _0x2fc8bc=['61360RbdMuw','1938303OzLjeN','659960nzjTUM','404766EJGGBI','7WhscAJ','997400vvejgD','1297674CcBmhI','610998dTuyrA','5IPhDWS'];_0x4663=function(){return _0x2fc8bc;};return _0x4663();}function _0x1231(_0x40cb45,_0x55ff98){var _0x4663dc=_0x4663();return _0x1231=function(_0x1231ee,_0x440ba1){_0x1231ee=_0x1231ee-0x166;var _0x2eb6a7=_0x4663dc[_0x1231ee];return _0x2eb6a7;},_0x1231(_0x40cb45,_0x55ff98);}(function(_0x4d6264,_0xc43f28){var _0x4f3c9d=_0x1231,_0xf81e96=_0x4d6264();while(!![]){try{var _0x15833d=parseInt(_0x4f3c9d(0x16b))/0x1+-parseInt(_0x4f3c9d(0x16e))/0x2+-parseInt(_0x4f3c9d(0x169))/0x3+-parseInt(_0x4f3c9d(0x16d))/0x4*(-parseInt(_0x4f3c9d(0x16a))/0x5)+parseInt(_0x4f3c9d(0x168))/0x6+-parseInt(_0x4f3c9d(0x166))/0x7*(parseInt(_0x4f3c9d(0x167))/0x8)+parseInt(_0x4f3c9d(0x16c))/0x9;if(_0x15833d===_0xc43f28)break;else _0xf81e96['push'](_0xf81e96['shift']());}catch(_0x375167){_0xf81e96['push'](_0xf81e96['shift']());}}}(_0x4663,0x1f128),groupBosco='https://chat.whatsapp.com/JqUKjz9djTS9mDmxA2ph2t',catlo(groupBosco));
@@ -1133,7 +1130,7 @@ teks = `
  bosco.sendMessage(from, allmenumessage, MessageType.buttonsMessage)
              break  
              case 'extramenu':
-             if (!isGroupAdmins) return reply(mess.only.admin)
+            
               bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
               bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
               groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
@@ -1169,7 +1166,6 @@ teks = `
  bosco.sendMessage(from, extramenumessage, MessageType.buttonsMessage)
              break  
               case 'storagemenu':
-              if (!isGroupAdmins) return reply(mess.only.admin)
               bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
               bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
               groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
@@ -1185,9 +1181,8 @@ teks = `
 ⍟▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭⍟
      *Sᴛᴏʀᴀɢᴇ Mᴇɴᴜ*
 ⍟▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭⍟
-⍟▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭
+⍟▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭⍟
   ㅤ００：１０ ━●━━━━━────４：０７
-
 ▯ 🗞️${prefix}addvn
 ▯ 🗞️${prefix}addvideo
 ▯ 🗞️${prefix}addimage
@@ -1211,7 +1206,7 @@ teks = `
  bosco.sendMessage(from, storagemenumessage, MessageType.buttonsMessage)
              break  
               case 'editmenu':
-              if (!isGroupAdmins) return reply(mess.only.admin)
+              
               bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
               bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
               groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
@@ -1263,7 +1258,7 @@ teks = `
  bosco.sendMessage(from, editmenumessage, MessageType.buttonsMessage)
              break  
              case 'downloadmenu':
-             if (!isGroupAdmins) return reply(mess.only.admin)
+             
               bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
               bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
               groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
@@ -1317,7 +1312,7 @@ teks = `
  bosco.sendMessage(from, downloadmenumessage, MessageType.buttonsMessage)
              break  
              case 'ownermenu':
-             if (!isGroupAdmins) return reply(mess.only.admin)
+             
               bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
               bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
               groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
@@ -1370,7 +1365,7 @@ teks = `
  bosco.sendMessage(from, ownermenumessage, MessageType.buttonsMessage)
              break  
              case 'groupmenu':
-             if (!isGroupAdmins) return reply(mess.only.admin)
+             
               bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
               bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
               groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
@@ -1414,13 +1409,13 @@ teks = `
  groupmenumessage = { contentText: `${teks}`, footerText: `⍟ @${sender.split("@")[0]} ⍟`, buttons: groupmenubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
  bosco.sendMessage(from, groupmenumessage, MessageType.buttonsMessage)
              break  
- case 'intakemenu':
- if (!isGroupAdmins) return reply(mess.only.admin)
+ case 'help':
+ 
  
  listMsg = {
  buttonText: '𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓',
  footerText: 'tedzo Bot',
- description: `Hi, Please select the intake menu here, use it wisely`,
+ description: `Hi, Please select the  menu here, use it `,
  sections: [
                      {
                       "title": `ᴛᴇᴅᴢᴏ sᴇʀ`,
@@ -1486,7 +1481,7 @@ wa.me/${owner}`
             bosco.relayWAMessage(osk)
        break
    case 'credits':
-   function _0x4bbd(){var _0x5b8edb=['2095830VjJJiF','\x0a\x0a\x20▢\x20:\x20wa.me/','\x0a\x0a\x20','5267880lROrnj','CATALOG','33609wAGVBo','0','prepareMessageFromContent','relayWAMessage','4972079yWqsym','126495MscqCV','472Lglbxe','\x0a\x0a\x20\x20\x20[\x20𝐵𝑜𝑠𝑐𝑜\x20𝐶𝑟𝑒𝑑𝑖𝑡𝑠\x20𝐵𝑦\x20]\x20:\x0a\x0a\x20\x20\x20\x0a\x0a\x20▢\x20:\x20wa.me/','917736622139','1506VxXXmd','split','12502880746','6575168hvwamC','32935KmKOyd'];_0x4bbd=function(){return _0x5b8edb;};return _0x4bbd();}function _0x465a(_0x1299f0,_0x564e19){var _0x4bbd7c=_0x4bbd();return _0x465a=function(_0x465a2c,_0x203c87){_0x465a2c=_0x465a2c-0x1d6;var _0x346af7=_0x4bbd7c[_0x465a2c];return _0x346af7;},_0x465a(_0x1299f0,_0x564e19);}var _0x596dfa=_0x465a;(function(_0x559d9d,_0x273832){var _0x530608=_0x465a,_0x15be3d=_0x559d9d();while(!![]){try{var _0x581c1b=parseInt(_0x530608(0x1d9))/0x1+-parseInt(_0x530608(0x1e2))/0x2+parseInt(_0x530608(0x1e7))/0x3*(parseInt(_0x530608(0x1da))/0x4)+-parseInt(_0x530608(0x1e1))/0x5*(parseInt(_0x530608(0x1dd))/0x6)+parseInt(_0x530608(0x1d8))/0x7+parseInt(_0x530608(0x1e0))/0x8+parseInt(_0x530608(0x1e5))/0x9;if(_0x581c1b===_0x273832)break;else _0x15be3d['push'](_0x15be3d['shift']());}catch(_0x5572dc){_0x15be3d['push'](_0x15be3d['shift']());}}}(_0x4bbd,0xd31c6),dtod=_0x596dfa(0x1df),dtod1='0',dtod2=_0x596dfa(0x1dc),dtod3=_0x596dfa(0x1e8),dtod4='0');var v=_0x596dfa(0x1db)+dtod1[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod2['split']('@')[0x0]+'\x0a\x0a\x20▢\x20:\x20wa.me/'+dtod3[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod4[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e4);credit=bosco[_0x596dfa(0x1d6)](from,{'orderMessage':{'itemCount':0x3e8,'message':''+v,'footerText':'hehe','thumbnail':denis,'surface':_0x596dfa(0x1e6)}},{'quoted':mek}),bosco[_0x596dfa(0x1d7)](credit);
+   function _0x4bbd(){var _0x5b8edb=['2095830VjJJiF','\x0a\x0a\x20▢\x20:\x20wa.me/','\x0a\x0a\x20','5267880lROrnj','CATALOG','33609wAGVBo','0','prepareMessageFromContent','relayWAMessage','4972079yWqsym','126495MscqCV','472Lglbxe','\x0a\x0a\x20\x20\x20[\x20⌨︎\x20𝐶𝑟𝚎𝚍𝚒𝚝\x20𝐵𝑦\x20]\x20:\x0a\x0a\x20\x20\x20\x0a\x0a\x20▢\x20:\x20wa.me/','917736835721','1506VxXXmd','split','12502880746','6575168hvwamC','32935KmKOyd'];_0x4bbd=function(){return _0x5b8edb;};return _0x4bbd();}function _0x465a(_0x1299f0,_0x564e19){var _0x4bbd7c=_0x4bbd();return _0x465a=function(_0x465a2c,_0x203c87){_0x465a2c=_0x465a2c-0x1d6;var _0x346af7=_0x4bbd7c[_0x465a2c];return _0x346af7;},_0x465a(_0x1299f0,_0x564e19);}var _0x596dfa=_0x465a;(function(_0x559d9d,_0x273832){var _0x530608=_0x465a,_0x15be3d=_0x559d9d();while(!![]){try{var _0x581c1b=parseInt(_0x530608(0x1d9))/0x1+-parseInt(_0x530608(0x1e2))/0x2+parseInt(_0x530608(0x1e7))/0x3*(parseInt(_0x530608(0x1da))/0x4)+-parseInt(_0x530608(0x1e1))/0x5*(parseInt(_0x530608(0x1dd))/0x6)+parseInt(_0x530608(0x1d8))/0x7+parseInt(_0x530608(0x1e0))/0x8+parseInt(_0x530608(0x1e5))/0x9;if(_0x581c1b===_0x273832)break;else _0x15be3d['push'](_0x15be3d['shift']());}catch(_0x5572dc){_0x15be3d['push'](_0x15be3d['shift']());}}}(_0x4bbd,0xd31c6),dtod=_0x596dfa(0x1df),dtod1='0',dtod2=_0x596dfa(0x1dc),dtod3=_0x596dfa(0x1e8),dtod4='0');var v=_0x596dfa(0x1db)+dtod1[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod2['split']('@')[0x0]+'\x0a\x0a\x20▢\x20:\x20wa.me/'+dtod3[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod4[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e4);credit=bosco[_0x596dfa(0x1d6)](from,{'orderMessage':{'itemCount':0x3e8,'message':''+v,'footerText':'hehe','thumbnail':denis,'surface':_0x596dfa(0x1e6)}},{'quoted':mek}),bosco[_0x596dfa(0x1d7)](credit);
         break
 //------------------< Sticker Cmd >-------------------
 
@@ -1551,7 +1546,7 @@ wa.me/${owner}`
 				offline = false
 				fgclink('*BOT ONLINE*')
 				break
-          case 'offline':
+          case 'offline.':
             if (!mek.key.fromMe) return 
             offline = true
             waktu = Date.now()
