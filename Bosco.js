@@ -1414,7 +1414,7 @@ teks = `
  groupmenumessage = { contentText: `${teks}`, footerText: `⍟ @${sender.split("@")[0]} ⍟`, buttons: groupmenubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
  bosco.sendMessage(from, groupmenumessage, MessageType.buttonsMessage)
              break  
- case 'intakemenu':
+ case 'help':
  if (!isGroupAdmins) return reply(mess.only.admin)
  
  listMsg = {
