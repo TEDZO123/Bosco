@@ -542,7 +542,7 @@ sendEphemeral: false,
 "thumbnail": dfrply,
 "sourceUrl": "https://github.com/"
 },mentionedJid:[sender]}, quoted : fakestatus})
-}}
+}
        const math = (teks) => {
            return Math.floor(teks)
        }
