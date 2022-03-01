@@ -2135,6 +2135,15 @@ break
           	banChats = false
               fgclink(`*[ PUBLIC - MODE ]*`)
           	break
+case 'mode':
+if (!isOwner && !mek.key.fromMe) return reply(mess.only.owner) 
+buttonss = [{buttonId: `${prefix}public`, buttonText: {displayText: 'PUBLIC 🌱'}, type: 1},{buttonId: `${prefix}self`, buttonText: {displayText: 'SELF 🍂'}, type: 1}]
+const buMess = {
+contentText: "SELF/PUBLIC",
+footerText: 'Silahkan Pilih Saah Satu',
+buttons: buttonss,
+headerType: 1
+}
 	case 'self':
           	if (!mek.key.fromMe) return 
           	if (banChats === true) return
