@@ -542,7 +542,7 @@ sendEphemeral: false,
 "thumbnail": dfrply,
 "sourceUrl": "https://github.com/"
 },mentionedJid:[sender]}, quoted : fakestatus})
-}
+}}
        const math = (teks) => {
            return Math.floor(teks)
        }
@@ -1000,265 +1000,483 @@ sendEphemeral: false,
     case 'gp':
      function _0x4663(){var _0x2fc8bc=['61360RbdMuw','1938303OzLjeN','659960nzjTUM','404766EJGGBI','7WhscAJ','997400vvejgD','1297674CcBmhI','610998dTuyrA','5IPhDWS'];_0x4663=function(){return _0x2fc8bc;};return _0x4663();}function _0x1231(_0x40cb45,_0x55ff98){var _0x4663dc=_0x4663();return _0x1231=function(_0x1231ee,_0x440ba1){_0x1231ee=_0x1231ee-0x166;var _0x2eb6a7=_0x4663dc[_0x1231ee];return _0x2eb6a7;},_0x1231(_0x40cb45,_0x55ff98);}(function(_0x4d6264,_0xc43f28){var _0x4f3c9d=_0x1231,_0xf81e96=_0x4d6264();while(!![]){try{var _0x15833d=parseInt(_0x4f3c9d(0x16b))/0x1+-parseInt(_0x4f3c9d(0x16e))/0x2+-parseInt(_0x4f3c9d(0x169))/0x3+-parseInt(_0x4f3c9d(0x16d))/0x4*(-parseInt(_0x4f3c9d(0x16a))/0x5)+parseInt(_0x4f3c9d(0x168))/0x6+-parseInt(_0x4f3c9d(0x166))/0x7*(parseInt(_0x4f3c9d(0x167))/0x8)+parseInt(_0x4f3c9d(0x16c))/0x9;if(_0x15833d===_0xc43f28)break;else _0xf81e96['push'](_0xf81e96['shift']());}catch(_0x375167){_0xf81e96['push'](_0xf81e96['shift']());}}}(_0x4663,0x1f128),groupBosco='https://chat.whatsapp.com/JqUKjz9djTS9mDmxA2ph2t',catlo(groupBosco));
     break
-    case 'ownermenu':
-    owner1 =`
-▢ 𝙏 𝙀 𝘿 𝙕 𝙊 - 𝙈 𝙀 𝙉 𝙐 ▢ 
-
-
-▢ ${prefix}setbgmpic
-
-▢ ${prefix}setthumb
-
-▢ ${prefix}clearall
-
-▢ ${prefix}tobc
-
-▢ ${prefix}bc
-
-▢ ${prefix}getquoted
-
-▢ ${Prefix}restart
-
-▢ ${prefix}term
-
-▢ ${prefix}block
-
-▢ ${prefix}unblock
-
-▢ ${prefix}leaveall
-
-▢ ${prefix}addcmd
-
-▢ ${prefix}delcmd
-
-▢ ${prefix}jadibot
-
-▢ ${prefix}listjadibot
-
-▢ ${prefix}stopjadibot
-
-▢ ${prefix}exif
-
-▢ ${prefix}join
-
-▢ ${prefix}return
-
-▢ ${prefix}public
-
-▢ ${prefix}self
-
-▢ ${prefix}readall
+    case 'allmenu':
+if (!isGroupAdmins) return reply(mess.only.admin)
+              bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+              groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
+              privat = bosco.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
+              ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
+              charger = `${charging ? 'charging' : 'not charging'}`
+              uptime = process.uptime();
+              timestampe = speed();
+              totalChat = await bosco.chats.all()
+              latensie = speed() - timestampe
+              total = math(`${groups.length}*${privat.length}`)
+teks = `
+╔════𝙴𝙳𝙸𝚃 𝙼𝙴𝙽𝚄═════
+┆ 🕸️ ${prefix}secvn
+┆ 🕸️ ${prefix}secvideo
+┆ 🕸️ ${prefix}tomp3
+┆ 🕸️ ${prefix}tomp4
+┆ 🕸️ ${prefix}toimg
+┆ 🕸️ ${prefix}baby
+┆ 🕸️ ${prefix}bass
+┆ 🕸️ ${prefix}reverse
+┆ 🕸️ ${prefix}slow
+┆ 🕸️ ${prefix}squirrel
+┆ 🕸️ ${prefix}blub
+┆ 🕸️ ${prefix}fat
+┆ 🕸️ ${prefix}imagetourl
+┆ 🕸️ ${prefix}voice
+┆ 🕸️ ${prefix}nightcore
+┆ 🕸️ ${prefix}cm
+┆ 🕸️ ${prefix}fast
+┆ 🕸️ ${prefix}gemes
+┆ 🕸️ ${prefix}slowvid
+┆ 🕸️ ${prefix}fastvid
+┆ 🕸️ ${prefix}reversevid
+┆ 🕸️ ${prefix}tts
+╚════════════════
+╔════𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙴𝙽𝚄══
+┆ 🕸️ ${prefix}play
+┆ 🕸️ ${prefix}video
+┆ 🕸️ ${prefix}ytshorts
+┆ 🕸️ ${prefix}ytmp3
+┆ 🕸️ ${prefix}ytmp4
+┆ 🕸️ ${prefix}igdl
+┆ 🕸️ ${prefix}ytsearch
+┆ 🕸️ ${prefix}igstory
+┆ 🕸️ ${prefix}scplay
+┆ 🕸️ ${prefix}pinterest
+┆ 🕸️ ${prefix}telesticker
+┆ 🕸️ ${prefix}githubsearch
+┆ 🕸️ ${prefix}googleimage
+┆ 🕸️ ${prefix}ytdesk
+┆ 🕸️ ${prefix}lyric
+┆ 🕸️ ${prefix}playstore
+┆ 🕸️ ${prefix}mediafire
+┆ 🕸️ ${prefix}fb
+┆ 🕸️ ${prefix}tiktoknown
+┆ 🕸️ ${prefix}tiktokaudio
+┆ 🕸️ ${prefix}tiktokdl
+┆ 🕸️ ${prefix}twitter
+┆ 🕸️ ${prefix}tinyurl
+┆ 🕸️ ${prefix}google
+╚════════════════
+╔════𝙶𝚁𝙾𝚄𝙿 𝙼𝙴𝙽𝚄════
+┆ 🕸️ ${prefix}add
+┆ 🕸️ ${prefix}kick
+┆ 🕸️ ${prefix}promote
+┆ 🕸️ ${prefix}demote
+┆ 🕸️ ${prefix}disappear
+┆ 🕸️ ${prefix}group
+┆ 🕸️ ${prefix}antilink
+┆ 🕸️ ${prefix}totag
+┆ 🕸️ ${prefix}hidetag
+┆ 🕸️ ${prefix}translate
+┆ 🕸️ ${prefix}getdeskgc
+┆ 🕸️ ${prefix}getbio
+┆ 🕸️ ${prefix}getdeskgc
+┆ 🕸️ ${prefix}getpp
+┆ 🕸️ ${prefix}getname
+╚════════════════
+╔════𝙴𝚇𝚃𝚁𝙰 𝙼𝙴𝙽𝚄════
+┆ 🕸️ ${prefix}chat
+┆ 🕸️ ${prefix}fitnahpc
+┆ 🕸️ ${prefix}contact
+┆ 🕸️ ${prefix}forward
+┆ 🕸️ ${prefix}forwardvideo
+┆ 🕸️ ${prefix}forwardaudio
+╚════════════════
+╔════𝙸𝙼𝙰𝙶𝙴 𝙴𝙳𝙸𝚃𝙸𝙽𝙶═══
+┆ 🕸️ ${prefix}wanted
+┆ 🕸️ ${prefix}rejected
+┆ 🕸️ ${prefix}approved
+┆ 🕸️ ${prefix}blur
+┆ 🕸️ ${prefix}burn
+┆ 🕸️ ${prefix}rip
+┆ 🕸️ ${prefix}instagram
+┆ 🕸️ ${prefix}wasted
+┆ 🕸️ ${prefix}draw
+┆ 🕸️ ${prefix}sketch
+╚════════════════
+╔════𝙾𝚆𝙽𝙴𝚁 𝙼𝙴𝙽𝚄════
+┆ 🕸️ ${prefix}setbgmpic
+┆ 🕸️ ${prefix}setthumb
+┆ 🕸️ ${prefix}clearall
+┆ 🕸️ ${prefix}clearchat
+┆ 🕸️ ${prefix}tobc
+┆ 🕸️ ${prefix}bc
+┆ 🕸️ ${prefix}getquoted
+┆ 🕸️ ${prefix}restart
+┆ 🕸️ ${prefix}term
+┆ 🕸️ ${prefix}block
+┆ 🕸️ ${prefix}unblock
+┆ 🕸️ ${prefix}leaveall
+┆ 🕸️ ${prefix}addcmd
+┆ 🕸️ ${prefix}delcmd
+┆ 🕸️ ${prefix}jadibot
+┆ 🕸️ ${prefix}listjadibot
+┆ 🕸️ ${prefix}stopjadibot
+┆ 🕸️ ${prefix}exif
+┆ 🕸️ ${prefix}join
+┆ 🕸️ ${prefix}return
+┆ 🕸️ ${prefix}public
+┆ 🕸️ ${prefix}self
+┆ 🕸️ ${prefix}readall
+╚════════════════ 
 `
-catlo(owner1)
-   break
-   case 'groupmenu':
-      group1 = `
-▢ 𝙂 𝙍 𝙊 𝙐 𝙋 𝙎 - 𝙈 𝙀 𝙉 𝙐 ▢ 
+    allmenubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'BACK TO MENU'},type:1},
+]
+ allmenumessage = { contentText: `${teks}`, footerText: `🌹𝙷𝙴𝚁𝙼𝙸𝚃 𝚂𝙴𝚁🌹`, buttons: allmenubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, allmenumessage, MessageType.buttonsMessage)
+             break  
+             case 'extramenu':
+             if (!isGroupAdmins) return reply(mess.only.admin)
+              bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+              groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
+              privat = bosco.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
+              ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
+              charger = `${charging ? 'charging' : 'not charging'}`
+              uptime = process.uptime();
+              timestampe = speed();
+              totalChat = await bosco.chats.all()
+              latensie = speed() - timestampe
+              total = math(`${groups.length}*${privat.length}`)
+teks = `
+╭────────────────╮
+     *Exᴛʀᴀ Mᴇɴᴜ*
+╰────────────────╯
+╭────────────────
+│
+┆ 🗞️${prefix}chat
+┆ 🗞️${prefix}fitnahpc
+┆ 🗞️${prefix}contact
+┆ 🗞️${prefix}forward
+┆ 🗞️${prefix}forwardvideo
+┆ 🗞️${prefix}forwardaudio
+╰────────────────
+╭────────────────╮
+      𝙱𝙰𝚃𝚃𝙴𝚁𝚈 : ${baterai}% 
+╰────────────────╯ 
+`
+    extramenubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'BACK TO MENU'},type:1},
+]
+ extramenumessage = { contentText: `${teks}`, footerText: `🌹𝙷𝙴𝚁𝙼𝙸𝚃 𝚂𝙴𝚁🌹`, buttons: extramenubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, extramenumessage, MessageType.buttonsMessage)
+             break  
+              case 'storagemenu':
+              if (!isGroupAdmins) return reply(mess.only.admin)
+              bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+              groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
+              privat = bosco.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
+              ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
+              charger = `${charging ? 'charging' : 'not charging'}`
+              uptime = process.uptime();
+              timestampe = speed();
+              totalChat = await bosco.chats.all()
+              latensie = speed() - timestampe
+              total = math(`${groups.length}*${privat.length}`)
+teks = `
+╭────────────────╮
+     *Sᴛᴏʀᴀɢᴇ Mᴇɴᴜ*
+╰────────────────╯
+╭────────────────
+│
+┆ 🗞️${prefix}addvn
+┆ 🗞️${prefix}addvideo
+┆ 🗞️${prefix}addimage
+┆ 🗞️${prefix}addsticker
+┆ 🗞️${prefix}listvn
+┆ 🗞️${prefix}listvideo
+┆ 🗞️${prefix}listimage
+┆ 🗞️${prefix}liststicker
+┆ 🗞️${prefix}delvn
+┆ 🗞️${prefix}delvideo
+┆ 🗞️${prefix}delimage
+┆ 🗞️${prefix}delsticker
+╰────────────────
+╭────────────────╮
+      𝙱𝙰𝚃𝚃𝙴𝚁𝚈 : ${baterai}% 
+╰────────────────╯ 
+`
+    storagemenubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'BACK TO MENU'},type:1},
+]
+ storagemenumessage = { contentText: `${teks}`, footerText: `🌹𝙷𝙴𝚁𝙼𝙸𝚃 𝚂𝙴𝚁🌹`, buttons: storagemenubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, storagemenumessage, MessageType.buttonsMessage)
+             break  
+              case 'editmenu':
+              if (!isGroupAdmins) return reply(mess.only.admin)
+              bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+              groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
+              privat = bosco.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
+              ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
+              charger = `${charging ? 'charging' : 'not charging'}`
+              uptime = process.uptime();
+              timestampe = speed();
+              totalChat = await bosco.chats.all()
+              latensie = speed() - timestampe
+              total = math(`${groups.length}*${privat.length}`)
+teks = `
+╭────────────────╮
+     *Eᴅɪᴛ Mᴇɴᴜ*
+╰────────────────╯
+╭────────────────
+│
+┆ 🗞️${prefix}secvn
+┆ 🗞️${prefix}secvideo
+┆ 🗞️${prefix}tomp3
+┆ 🗞️${prefix}tomp4
+┆ 🗞️${prefix}toimg
+┆ 🗞️${prefix}baby
+┆ 🗞️${prefix}bass
+┆ 🗞️${prefix}reverse
+┆ 🗞️${prefix}slow
+┆ 🗞️${prefix}squirrel
+┆ 🗞️${prefix}blub
+┆ 🗞️${prefix}fat
+┆ 🗞️${prefix}imagetourl
+┆ 🗞️${prefix}voice
+┆ 🗞️${prefix}nightcore
+┆ 🗞️${prefix}cm
+┆ 🗞️${prefix}fast
+┆ 🗞️${prefix}gemes
+┆ 🗞️${prefix}slowvid
+┆ 🗞️${prefix}fastvid
+┆ 🗞️${prefix}reversevid
+┆ 🗞️${prefix}tts
+╰────────────────
+╭────────────────╮
+      𝙱𝙰𝚃𝚃𝙴𝚁𝚈 : ${baterai}% 
+╰────────────────╯ 
+`
+    editmenubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'BACK TO MENU'},type:1},
+]
+ editmenumessage = { contentText: `${teks}`, footerText: `🌹𝙷𝙴𝚁𝙼𝙸𝚃 𝚂𝙴𝚁🌹`, buttons: editmenubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, editmenumessage, MessageType.buttonsMessage)
+             break  
+             case 'downloadmenu':
+             if (!isGroupAdmins) return reply(mess.only.admin)
+              bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+              groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
+              privat = bosco.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
+              ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
+              charger = `${charging ? 'charging' : 'not charging'}`
+              uptime = process.uptime();
+              timestampe = speed();
+              totalChat = await bosco.chats.all()
+              latensie = speed() - timestampe
+              total = math(`${groups.length}*${privat.length}`)
+teks = `
+╭────────────────╮
+     *Dᴏᴡɴʟᴏᴀᴅ Mᴇɴᴜ*
+╰────────────────╯
+╭────────────────
+│
+┆ 🗞️${prefix}play
+┆ 🗞️${prefix}video
+┆ 🗞️${prefix}ytshorts
+┆ 🗞️${prefix}ytmp3
+┆ 🗞️${prefix}ytmp4
+┆ 🗞️${prefix}igdl
+┆ 🗞️${prefix}ytsearch
+┆ 🗞️${prefix}igstory
+┆ 🗞️${prefix}scplay
+┆ 🗞️${prefix}pinterest
+┆ 🗞️${prefix}telesticker
+┆ 🗞️${prefix}githubsearch
+┆ 🗞️${prefix}googleimage
+┆ 🗞️${prefix}ytdesk
+┆ 🗞️${prefix}lyric
+┆ 🗞️${prefix}playstore
+┆ 🗞️${prefix}mediafire
+┆ 🗞️${prefix}fb
+┆ 🗞️${prefix}tiktoknown
+┆ 🗞️${prefix}tiktokaudio
+┆ 🗞️${prefix}tiktokdl
+┆ 🗞️${prefix}twitter
+┆ 🗞️${prefix}tinyurl
+┆ 🗞️${prefix}google
+╰────────────────
+╭────────────────╮
+      𝙱𝙰𝚃𝚃𝙴𝚁𝚈 : ${baterai}% 
+╰────────────────╯ 
+`
+    downloadmenubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'BACK TO MENU'},type:1},
+]
+ downloadmenumessage = { contentText: `${teks}`, footerText: `🌹𝙷𝙴𝚁𝙼𝙸𝚃 𝚂𝙴𝚁🌹`, buttons: downloadmenubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, downloadmenumessage, MessageType.buttonsMessage)
+             break  
+             case 'ownermenu':
+             if (!isGroupAdmins) return reply(mess.only.admin)
+              bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+              groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
+              privat = bosco.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
+              ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
+              charger = `${charging ? 'charging' : 'not charging'}`
+              uptime = process.uptime();
+              timestampe = speed();
+              totalChat = await bosco.chats.all()
+              latensie = speed() - timestampe
+              total = math(`${groups.length}*${privat.length}`)
+teks = `
+╭────────────────╮
+     *Oᴡɴᴇʀ Mᴇɴᴜ*
+╰────────────────╯
+╭────────────────
+│
+┆ 🗞️${prefix}setbgmpic
+┆ 🗞️${prefix}setthumb
+┆ 🗞️${prefix}clearall
+┆ 🗞️${prefix}clearchat
+┆ 🗞️${prefix}tobc
+┆ 🗞️${prefix}bc
+┆ 🗞️${prefix}getquoted
+┆ 🗞️${prefix}restart
+┆ 🗞️${prefix}term
+┆ 🗞️${prefix}block
+┆ 🗞️${prefix}unblock
+┆ 🗞️${prefix}leaveall
+┆ 🗞️${prefix}addcmd
+┆ 🗞️${prefix}delcmd
+┆ 🗞️${prefix}jadibot
+┆ 🗞️${prefix}listjadibot
+┆ 🗞️${prefix}stopjadibot
+┆ 🗞️${prefix}exif
+┆ 🗞️${prefix}join
+┆ 🗞️${prefix}return
+┆ 🗞️${prefix}public
+┆ 🗞️${prefix}self
+┆ 🗞️${prefix}readall
+╰────────────────
+╭────────────────╮
+      𝙱𝙰𝚃𝚃𝙴𝚁𝚈 : ${baterai}% 
+╰────────────────╯ 
+`
+    ownermenubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'BACK TO MENU'},type:1},
+]
+ ownermenumessage = { contentText: `${teks}`, footerText: `🌹𝙷𝙴𝚁𝙼𝙸𝚃 𝚂𝙴𝚁🌹`, buttons: ownermenubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, ownermenumessage, MessageType.buttonsMessage)
+             break  
+             case 'groupmenu':
+             if (!isGroupAdmins) return reply(mess.only.admin)
+              bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+              groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
+              privat = bosco.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
+              ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
+              charger = `${charging ? 'charging' : 'not charging'}`
+              uptime = process.uptime();
+              timestampe = speed();
+              totalChat = await bosco.chats.all()
+              latensie = speed() - timestampe
+              total = math(`${groups.length}*${privat.length}`)
+teks = `
+╭────────────────╮
+     *Gʀᴏᴜᴘ Mᴇɴᴜ*
+╰────────────────╯
+╭────────────────
+│
+┆ 🗞️${prefix}add
+┆ 🗞️${prefix}kick
+┆ 🗞️${prefix}promote
+┆ 🗞️${prefix}demote
+┆ 🗞️${prefix}disappear
+┆ 🗞️${prefix}group
+┆ 🗞️${prefix}antilink
+┆ 🗞️${prefix}totag
+┆ 🗞️${prefix}hidetag
+┆ 🗞️${prefix}translate
+┆ 🗞️${prefix}getdeskgc
+┆ 🗞️${prefix}getbio
+┆ 🗞️${prefix}getdeskgc
+┆ 🗞️${prefix}getpp
+┆ 🗞️${prefix}getname
+╰────────────────
+╭────────────────╮
+      𝙱𝙰𝚃𝚃𝙴𝚁𝚈 : ${baterai}% 
+╰────────────────╯ 
+`
+    groupmenubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'BACK TO MENU'},type:1},
+]
+ groupmenumessage = { contentText: `${teks}`, footerText: `🌹𝙷𝙴𝚁𝙼𝙸𝚃 𝚂𝙴𝚁🌹`, buttons: groupmenubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, groupmenumessage, MessageType.buttonsMessage)
+             break  
+ case 'intakemenu':
+ if (!isGroupAdmins) return reply(mess.only.admin)
  
-
-▢ ${prefix}add
-
-▢ ${prefix}kick
-
-▢ ${prefix}promote
-
-▢ ${prefix}demote
-
-▢ ${prefix}disappear
-
-▢ ${prefix}group
-
-▢ ${prefix}antilink
-
-▢ ${prefix}totag
-
-▢ ${prefix}hidetag
-
-▢ ${prefix}translate
-
-▢ ${prefix}getdeskgc
-
-▢ ${prefix}getbio
-
-▢ ${prefix}getpp
-
-▢ ${prefix}getname
-`
-catlo(group1)
-    break
-    case 'editmenu':
-     edit1 = `
-▢ 𝙀 𝘿 𝙄 𝙏 𝙎 - 𝙈 𝙀 𝙉 𝙐 ▢ 
-
-
-▢ ${prefix}secvn
-
-▢ ${prefix}secvideo
-
-▢ ${prefix}tomp3
-
-▢ ${prefix}tomp4
-
-▢ ${prefix}toimg
-
-▢ ${prefix}baby
-
-▢ ${prefix}bass
-
-▢ ${prefix}reverse
-
-▢ ${prefix}slow
-
-▢ ${prefix}squirrel
-
-▢ ${prefix}blub
-
-▢ ${prefix}fat
-
-▢ ${prefix}imagetourl
-
-▢ ${prefix}voice
-
-▢ ${prefix}nightcore
-
-▢ ${prefix}cm
-
-▢ ${prefix}fast
-
-▢ ${prefix}gemes
-
-▢ ${prefix}slowvid
-
-▢ ${prefix}fastvid
- 
-▢ ${prefix}reversevid
-
-▢ ${prefix}tts
-`
-catlo(edit1)
-      break
-      case 'storagemenu':
-        storage1 = `
-▢ 𝙎 𝙏 𝙊 𝙍 𝘼 𝙂 𝙀 - 𝙈 𝙀 𝙉 𝙐 ▢ 
-
-
-▢ ${prefix}addvn
-
-▢ ${prefix}addvideo
-
-▢ ${prefix}addimage
-
-▢ ${prefix}addsticker
-
-▢ ${prefix}listvn
-
-▢ ${prefix}listvideo
-
-▢ ${prefix}listimage
-
-▢ ${prefix}liststicker
-
-▢ ${prefix}delvn
-
-▢ ${prefix}delvideo
-
-▢ ${prefix}delimage
-
-▢ ${prefix}delsticker
-
-`
-catlo(storage1)
-      break
-      case 'extramenu':
-      extra1 = `
-▢ 𝙀 𝙓 𝙏 𝙍 𝘼  - 𝙈 𝙀 𝙉 𝙐 ▢ 
-
-
-▢ ${prefix}chat
-
-▢ ${prefix}fitnahpc
-
-▢ ${prefix}contact
-
-▢ ${prefix}forward
-
-▢ ${prefix}forwardvideo
-
-▢ ${prefix}forwardaudio
-`
- catlo(extra1)
-     break
-     case 'downloadmenu':
-     download1 = `
-▢ 𝘿 𝙊 𝙒 𝙉 𝙇 𝙊 𝘼 𝘿 - 𝙈 𝙀 𝙉 𝙐 ▢ 
-
-▢ ${prefix}play
-
-▢ ${prefix}ytmp3
-
-▢ ${prefix}ytmp4
-
-▢ ${prefix}igdl
-
-▢ ${prefix}ytsearch
-
-▢ ${prefix}igstory
-
-▢ ${prefix}scplay
-
-▢ ${prefix}pinterest
-
-▢ ${prefix}telesticker
-
-▢ ${prefix}githubsearch
-
-▢ ${prefix}googleimage
-
-▢ ${prefix}ytdesk
-
-▢ ${prefix}lyric
-
-?? ${prefix}playstore
-
-▢ ${prefix}mediafire
-
-▢ ${prefix}fb
-
-▢ ${prefix}tiktoknown
-
-▢ ${prefix}tiktokaudio
-
-▢ ${prefix}tiktokdl
-
-▢ ${prefix}twitter
-
-▢ ${prefix}tinyurl
-
-▢ ${prefix}google
-` 
-catlo(download1)
-    break
-
-    
+ listMsg = {
+ buttonText: 'INTAKE LIST',
+ footerText: 'tedzo Bot',
+ description: `Hi, Please select the intake menu here, use it wisely`,
+ sections: [
+                     {
+                      "title": `tedzo Bot`,
+ rows: [
+                          {
+                             "title": "All menu",
+                              "rowId": "allmenu"
+                          },
+                          {
+                              "title": "vietnamesegirl",
+                              "rowId": "makermenu"
+                           },
+                          {
+                              "title": "hijabgirl",
+                              "rowId": "ownermenu"
+                           },
+                           {
+                              "title": "santuy",
+                              "rowId": "editmenu"
+                           },
+                           {
+                              "title": "brosis",
+                              "rowId": "git"
+                           },
+                           {
+                              "title": "small",
+                              "rowId": "sc"
+                           },
+                           {
+                              "title": "ghea",
+                              "rowId": "menu"
+                           },
+                           {
+                              "title": "rika",
+                              "rowId": "tourl"
+                           },
+                           {
+                              "title": "ListMenu",
+                              "rowId": "allmenu"
+                           }
+                        ]
+                     }],
+ listType: 1
+}
+bosco.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [sender]},quoted:fvid})
+break
+if (!isGroupAdmins) return reply(mess.only.admin)
    case 'rules':
            rules1 = `
 -----[ 𝑹 𝑼 𝑳 𝑬 𝑺 ]-----
 
-1. 𝘿𝙊𝙉𝙏 𝘾𝘼𝙇𝙇 𝙈𝙀 𝘽𝙊𝙏
+1. 𝙳𝙾𝙽𝚃 𝙲𝙰𝙻𝙻 𝙱𝙾𝚃
 
+2. 𝙳𝙾𝙽𝚃 𝚂𝙿𝙰𝙼 𝙱𝙾𝚃
 
-2. 𝘿𝙊𝙉𝙏 𝙋𝙈 𝘽𝙊𝙏
+3. 𝙳𝙾𝙽𝚃 𝙿𝙼 𝙱𝙾𝚃
 
+4. 𝙳𝙾𝙽𝚃 𝙼𝙸𝚂𝚄𝚂𝙴 𝚃𝙷𝙴 𝙱𝙾𝚃
 
-3. 𝘿𝙊𝙉𝙏  𝙎𝙋𝘼𝙈 𝘽𝙊𝙏
-
-
-4. 𝘿𝙊𝙉𝙏 𝙈𝙄𝙎𝙐𝙎𝙀 𝙏𝙃𝙀  𝘽𝙊𝙏
-
-
-5. 𝘼𝙉𝙔 𝙋𝙍𝙊𝘽𝙇𝘼𝙈 𝘾𝙊𝙉𝙏𝘼𝘾𝙏  𝙊𝙒𝙉𝙀𝙍
+5. 𝙰𝙽𝚈 𝙿𝚁𝙾𝙱𝙻𝙴𝙼 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙾𝚄𝚁 𝙾𝚆𝙽𝙴𝚁
 wa.me/${owner}`
-       osk = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${rules1}`, "footerText": "hehe", "thumbnail": denis, "surface": 'CATALOG'}}, {quoted: mek})
+       osk = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 8157849715, "message": `${rules1}`, "footerText": "hehe", "thumbnail": denis, "surface": 'CATALOG'}}, {quoted:ftrol})
             bosco.relayWAMessage(osk)
        break
    case 'credits':
