@@ -269,7 +269,7 @@ module.exports = bosco = async (bosco, mek) => {
              bosco.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = bosco.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JqUKjz9djTS9mDmxA2ph2t', "groupName": `TEDZO BOTS`, "footerText": "*tedzo Ser*", "jpegThumbnail": dfrply, "caption": teks}}, {quoted:fvideo})
+        	grup = bosco.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JqUKjz9djTS9mDmxA2ph2t', "groupName": `TEDZO BOTS`, "footerText": "*tedzo Ser*", "jpegThumbnail": dfrply, "caption": teks}}, {quoted:fvid})
             bosco.relayWAMessage(grup)
         }
         try {
