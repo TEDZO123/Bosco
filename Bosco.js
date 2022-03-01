@@ -2277,7 +2277,7 @@ break
 case 'hls': {
 if (!text) throw 'Link Video Bokep Nya Mana ?'
 m.reply(mess.wait)
-webapi = await fetchJson(api('zeroyt7', '/xnxxdl', { url: text }, 'apikey'))
+webapi = await fetchJson(api('bosco', '/xnxxdl', { url: text }, 'apikey'))
 bosco.sendMessage(m.chat, { video: { url: webapi.result.result.files.hls }, caption: `Done Nih... Don't forget to subscribe my YouTube : sanzy yt`}, { quoted: ftroli })
 }
 break
@@ -2285,7 +2285,7 @@ break
 case 'artinama': {
 if (!text) throw 'Nama Nya Mana ?'
 m.reply(mess.wait)
-webapi = await fetchJson(api('zeroyt7', '/artinama', { nama: text }, 'apikey'))
+webapi = await fetchJson(api('bosco', '/artinama', { nama: text }, 'apikey'))
 txt =`Arti : ${webapi.result.arti}`
 m.reply(txt)
 }
@@ -2293,7 +2293,7 @@ break
 case 'cariresep': {
 if (!text) throw 'Mau Cari Resep Apa ?'
 m.reply(mess.wait)
-webapi = await fetchJson(api('zeroyt7', '/cariresep', { query: text }, 'apikey'))
+webapi = await fetchJson(api('bosco', '/cariresep', { query: text }, 'apikey'))
 resultnya = webapi.result.data
 for (var x of resultnya) {
 txt =`Creator : ${webapi.result.creator}
@@ -2307,7 +2307,7 @@ break
 case 'liriklagu': {
 if (!text) throw 'Judul Lagu Nya Apa ?'
 m.reply(mess.wait)
-webapi = await fetchJson(api('zeroyt7', '/liriklagu', { query: text }, 'apikey'))
+webapi = await fetchJson(api('bosco', '/liriklagu', { query: text }, 'apikey'))
 resultnya = webapi.result
 for (var x of resultnya) {
 txt =`Lirik : ${x.result}`
