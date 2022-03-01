@@ -1416,7 +1416,7 @@ teks = `
  description: `∆ Hɪ Bʀᴏ @${sender.split("@")[0]}\n ∆ Pʀɪᴠᴀᴛᴇ : ${privat.length}\n ∆ Gʀᴏᴜᴘs : ${groups.length}\n ∆ Tᴏᴛᴀʟ : ${totalChat.length}\n ∆ Sᴘᴇᴇᴅ : ${latensie.toFixed(4)}\n ∆ Bᴀᴛᴛᴇʀʏ : ${baterai}%\n\n ${jmn} -  ${jmo}\n${week} - ${calender} ``,
  sections: [
                      {
-                      "title": `⚙️`,
+                      "title": ``,
  rows: [
                           {
                              "title": "𝐀𝐥𝐥 𝐌𝐄𝐍𝐔",
