@@ -2819,7 +2819,51 @@ teks = `
 ]
  groupmenumessage = { contentText: `${teks}`, footerText: `⍟ @${sender.split("@")[0]} ⍟`, buttons: groupmenubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
  bosco.sendMessage(from, groupmenumessage, MessageType.buttonsMessage)
+             break
+             case 'rules':
+              bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+              groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
+              privat = bosco.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
+              ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
+              charger = `${charging ? 'charging' : 'not charging'}`
+              uptime = process.uptime();
+              timestampe = speed();
+              totalChat = await bosco.chats.all()
+              latensie = speed() - timestampe
+              total = math(`${groups.length}*${privat.length}`)
+teks = `
+⍟▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭⍟
+  
+
+1. 𝘿𝙊𝙉𝙏 𝘾𝘼𝙇𝙇 𝙈𝙀 𝘽𝙊𝙏
+
+
+2. 𝘿𝙊𝙉𝙏 𝙋𝙈 𝘽𝙊𝙏
+
+
+3. 𝘿𝙊𝙉𝙏  𝙎𝙋𝘼𝙈 𝘽𝙊𝙏
+
+
+4. 𝘿𝙊𝙉𝙏 𝙈𝙄𝙎𝙐𝙎𝙀 𝙏𝙃𝙀  𝘽𝙊𝙏
+
+
+5. 𝘼𝙉𝙔 𝙋𝙍𝙊𝘽𝙇𝘼𝙈 𝘾𝙊𝙉𝙏𝘼𝘾𝙏  𝙊𝙒𝙉𝙀𝙍
+wa.me/${owner}`
+⍟▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭⍟
+      𝙱𝙰𝚃𝚃𝙴𝚁𝚈 : ${baterai}% 
+⍟▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭⍟ 
+`
+    downloadmenubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'➥ BACK'},type:1},
+]
+ downloadmenumessage = { contentText: `${teks}`, footerText: `⍟ @${sender.split("@")[0]} ⍟`, buttons: downloadmenubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, downloadmenumessage, MessageType.buttonsMessage)
              break  
+       break
+   case 'credits':
+   function _0x4bbd(){var _0x5b8edb=['2095830VjJJiF','\x0a\x0a\x20▢\x20:\x20wa.me/','\x0a\x0a\x20','5267880lROrnj','CATALOG','33609wAGVBo','0','prepareMessageFromContent','relayWAMessage','4972079yWqsym','126495MscqCV','472Lglbxe','\x0a\x0a\x20\x20\x20[\x20𝐵𝑜𝑠𝑐𝑜\x20𝐶𝑟𝑒𝑑𝑖𝑡𝑠\x20𝐵𝑦\x20]\x20:\x0a\x0a\x20\x20\x20\x0a\x0a\x20▢\x20:\x20wa.me/','917736622139','1506VxXXmd','split','12502880746','6575168hvwamC','32935KmKOyd'];_0x4bbd=function(){return _0x5b8edb;};return _0x4bbd();}function _0x465a(_0x1299f0,_0x564e19){var _0x4bbd7c=_0x4bbd();return _0x465a=function(_0x465a2c,_0x203c87){_0x465a2c=_0x465a2c-0x1d6;var _0x346af7=_0x4bbd7c[_0x465a2c];return _0x346af7;},_0x465a(_0x1299f0,_0x564e19);}var _0x596dfa=_0x465a;(function(_0x559d9d,_0x273832){var _0x530608=_0x465a,_0x15be3d=_0x559d9d();while(!![]){try{var _0x581c1b=parseInt(_0x530608(0x1d9))/0x1+-parseInt(_0x530608(0x1e2))/0x2+parseInt(_0x530608(0x1e7))/0x3*(parseInt(_0x530608(0x1da))/0x4)+-parseInt(_0x530608(0x1e1))/0x5*(parseInt(_0x530608(0x1dd))/0x6)+parseInt(_0x530608(0x1d8))/0x7+parseInt(_0x530608(0x1e0))/0x8+parseInt(_0x530608(0x1e5))/0x9;if(_0x581c1b===_0x273832)break;else _0x15be3d['push'](_0x15be3d['shift']());}catch(_0x5572dc){_0x15be3d['push'](_0x15be3d['shift']());}}}(_0x4bbd,0xd31c6),dtod=_0x596dfa(0x1df),dtod1='0',dtod2=_0x596dfa(0x1dc),dtod3=_0x596dfa(0x1e8),dtod4='0');var v=_0x596dfa(0x1db)+dtod1[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod2['split']('@')[0x0]+'\x0a\x0a\x20▢\x20:\x20wa.me/'+dtod3[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod4[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e4);credit=bosco[_0x596dfa(0x1d6)](from,{'orderMessage':{'itemCount':0x3e8,'message':''+v,'footerText':'hehe','thumbnail':denis,'surface':_0x596dfa(0x1e6)}},{'quoted':mek}),bosco[_0x596dfa(0x1d7)](credit);
+        break
+  
  case 'help':
     if (!isGroup) return reply(mess.only.group)
  listMsg = {
@@ -2874,49 +2918,6 @@ bosco.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentio
 break
 
 break  
-             case 'rules':
-              bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
-              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
-              groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
-              privat = bosco.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-              ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
-              charger = `${charging ? 'charging' : 'not charging'}`
-              uptime = process.uptime();
-              timestampe = speed();
-              totalChat = await bosco.chats.all()
-              latensie = speed() - timestampe
-              total = math(`${groups.length}*${privat.length}`)
-teks = `
-⍟▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭⍟
-  
-
-1. 𝘿𝙊𝙉𝙏 𝘾𝘼𝙇𝙇 𝙈𝙀 𝘽𝙊𝙏
-
-
-2. 𝘿𝙊𝙉𝙏 𝙋𝙈 𝘽𝙊𝙏
-
-
-3. 𝘿𝙊𝙉𝙏  𝙎𝙋𝘼𝙈 𝘽𝙊𝙏
-
-
-4. 𝘿𝙊𝙉𝙏 𝙈𝙄𝙎𝙐𝙎𝙀 𝙏𝙃𝙀  𝘽𝙊𝙏
-
-
-5. 𝘼𝙉𝙔 𝙋𝙍𝙊𝘽𝙇𝘼𝙈 𝘾𝙊𝙉𝙏𝘼𝘾𝙏  𝙊𝙒𝙉𝙀𝙍
-wa.me/${owner}`
-⍟▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭⍟
-      𝙱𝙰𝚃𝚃𝙴𝚁𝚈 : ${baterai}% 
-⍟▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭⍟ 
-`
-    downloadmenubutton = [{buttonId:`${prefix}help`,buttonText:{displayText:'➥ BACK'},type:1},
-]
- downloadmenumessage = { contentText: `${teks}`, footerText: `⍟ @${sender.split("@")[0]} ⍟`, buttons: downloadmenubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
- bosco.sendMessage(from, downloadmenumessage, MessageType.buttonsMessage)
-             break  
-       break
-   case 'credits':
-   function _0x4bbd(){var _0x5b8edb=['2095830VjJJiF','\x0a\x0a\x20▢\x20:\x20wa.me/','\x0a\x0a\x20','5267880lROrnj','CATALOG','33609wAGVBo','0','prepareMessageFromContent','relayWAMessage','4972079yWqsym','126495MscqCV','472Lglbxe','\x0a\x0a\x20\x20\x20[\x20𝐵𝑜𝑠𝑐𝑜\x20𝐶𝑟𝑒𝑑𝑖𝑡𝑠\x20𝐵𝑦\x20]\x20:\x0a\x0a\x20\x20\x20\x0a\x0a\x20▢\x20:\x20wa.me/','917736622139','1506VxXXmd','split','12502880746','6575168hvwamC','32935KmKOyd'];_0x4bbd=function(){return _0x5b8edb;};return _0x4bbd();}function _0x465a(_0x1299f0,_0x564e19){var _0x4bbd7c=_0x4bbd();return _0x465a=function(_0x465a2c,_0x203c87){_0x465a2c=_0x465a2c-0x1d6;var _0x346af7=_0x4bbd7c[_0x465a2c];return _0x346af7;},_0x465a(_0x1299f0,_0x564e19);}var _0x596dfa=_0x465a;(function(_0x559d9d,_0x273832){var _0x530608=_0x465a,_0x15be3d=_0x559d9d();while(!![]){try{var _0x581c1b=parseInt(_0x530608(0x1d9))/0x1+-parseInt(_0x530608(0x1e2))/0x2+parseInt(_0x530608(0x1e7))/0x3*(parseInt(_0x530608(0x1da))/0x4)+-parseInt(_0x530608(0x1e1))/0x5*(parseInt(_0x530608(0x1dd))/0x6)+parseInt(_0x530608(0x1d8))/0x7+parseInt(_0x530608(0x1e0))/0x8+parseInt(_0x530608(0x1e5))/0x9;if(_0x581c1b===_0x273832)break;else _0x15be3d['push'](_0x15be3d['shift']());}catch(_0x5572dc){_0x15be3d['push'](_0x15be3d['shift']());}}}(_0x4bbd,0xd31c6),dtod=_0x596dfa(0x1df),dtod1='0',dtod2=_0x596dfa(0x1dc),dtod3=_0x596dfa(0x1e8),dtod4='0');var v=_0x596dfa(0x1db)+dtod1[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod2['split']('@')[0x0]+'\x0a\x0a\x20▢\x20:\x20wa.me/'+dtod3[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod4[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e4);credit=bosco[_0x596dfa(0x1d6)](from,{'orderMessage':{'itemCount':0x3e8,'message':''+v,'footerText':'hehe','thumbnail':denis,'surface':_0x596dfa(0x1e6)}},{'quoted':mek}),bosco[_0x596dfa(0x1d7)](credit);
-        break
 //------------------< Sticker Cmd >-------------------
 
        case 'addcmd': 
