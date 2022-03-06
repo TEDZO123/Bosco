@@ -3443,6 +3443,24 @@ case 'emoji':
                reply(`*The format is wrong tod This is an example of the correct format* : ${prefix + command} halo|10`)
 }
                break
+case 'nocmd':
+									ihsh = `${owner_number}@s.whatsapp.net`
+									let cekvipp = ms(premium.getPremiumExpired(sender,premium) - Date.now())
+									let gaklo = [{
+										"buttonId": `mystat`,
+										"buttonText": {
+											"displayText": "✓ STATICTIC"
+											},
+										"type": "RESPONSE"
+										},{
+										"buttonId": `sewabot`,
+										"buttonText": {
+											"displayText": "⎙ SEWABOT"
+											},
+										"type": "RESPONSE"
+										}]
+										sendButLocation(from, menubot.allmenu(namabot, pushname, sender, isOwner, isPremium, cekvipp, getLimit, limitawal,limit, balance, getBalance, simbolnya, petik, prefix), `Total hit : ${hitall}${enter}Hit today : ${hit_today.length}${enter}${enter}${namabot}™© | ${owner_name}`, thumbnail, gaklo, {contextInfo: { mentionedJid: [sender]}})
+										break
 
 //------------------< Maker Menu >-------------------
 
