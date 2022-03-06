@@ -1461,9 +1461,10 @@ teks = `
 }
 bosco.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [sender]},quoted:fvid})
 break
+
    case 'rules':
            rules1 = `
------[ 𝑹 𝑼 𝑳 𝑬 𝑺 ]-----
+"-----[ 𝑹 𝑼 𝑳 𝑬 𝑺 ]-----"
 
 1. 𝙳𝙾𝙽𝚃 𝙲𝙰𝙻𝙻 𝙱𝙾𝚃
 
