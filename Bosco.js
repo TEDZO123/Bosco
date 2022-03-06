@@ -1365,6 +1365,7 @@ teks = `
  bosco.sendMessage(from, ownermenumessage, MessageType.buttonsMessage)
              break  
              case 'groupmenu':
+              if (!isGroup) return reply(mess.only.group)
               bosco1 = await bosco.prepareMessage(from, fs.readFileSync('./ds.jpg'), location, {thumbnail: fs.readFileSync('./ds.jpg')})
               bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
               groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
@@ -1409,7 +1410,7 @@ teks = `
  bosco.sendMessage(from, groupmenumessage, MessageType.buttonsMessage)
              break  
  case 'help':
- 
+    if (!isGroup) return reply(mess.only.group)
  listMsg = {
  buttonText: '𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓',
  footerText: 'tedzo Bot',
@@ -1460,7 +1461,6 @@ teks = `
 }
 bosco.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [sender]},quoted:fvid})
 break
-if (!isGroupAdmins) return reply(mess.only.admin)
    case 'rules':
            rules1 = `
 -----[ 𝑹 𝑼 𝑳 𝑬 𝑺 ]-----
