@@ -2881,6 +2881,415 @@ teks = `
               prep = await bosco.prepareMessageFromContent(from,{buttonsMessage},{})
               bosco.relayWAMessage(prep)
               break
+                 case 'allyre':
+                           tagme = '6287778886786'
+                           timestampe = speed();
+                           latensie = speed() - timestampe
+                           parseMention = (text = '') => {
+                           return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
+                           anus = sender
+                           var menu = `*𝙆𝙐𝙉𝙕 𝘽𝙊𝙏𝙕*
+
+*🤖 𝑪𝒓𝒆𝒂𝒕𝒐𝒓 :* @${tagme}
+*🤖 𝑩𝒂𝒕𝒓𝒆𝒂𝒊 :* ${baterai}%
+*🤖 𝑷𝒓𝒆𝒇𝒊𝒙 :* 𝑴𝒖𝒍𝒕𝒊-𝑷𝒓𝒆𝒇𝒊𝒙
+*🤖 𝑮𝒓𝒖𝒑 𝑻𝒐𝒕𝒂𝒍 :* ${groups.length}
+*🤖 𝑷𝒓𝒊𝒗𝒂𝒕𝒆 𝑪𝒉𝒂𝒕 :* ${privat.length}
+*🤖 𝑻𝒐𝒕𝒂𝒍 𝑪𝒉𝒂𝒕 :* ${totalChat.length}
+*🤖 𝑺𝒑𝒆𝒆𝒅 :* ${latensie.toFixed(4)} 𝒔𝒆𝒄𝒄𝒐𝒏𝒅
+*🤖 𝑩𝒐𝒕 𝑴𝒐𝒅𝒆 :* ${banChats ? "𝑺𝑬𝑳𝑭-𝑴𝑶𝑫𝑬" : "𝑷𝑼𝑩𝑳𝑰𝑪-𝑴𝑶𝑫𝑬"}
+*🤖 𝑭𝒊𝒕𝒖𝒓 :* 550 𝒇𝒊𝒕𝒖𝒓
+
+*𒍮𝑰𝒏𝒇𝒐 𝒖𝒔𝒆𝒓*
+*💰 𝑳𝒆𝒗𝒆𝒍 :* ${levelRole}
+*💰 𝑳𝒊𝒎𝒊𝒕 :* Unlimited
+*💰 𝑩𝒂𝒍𝒂𝒏𝒄𝒆 :* Rp.870
+*💰 𝑵𝒐𝒎𝒐𝒓 :* wa.me/${sender.replace('@s.whatsapp.net', '')}
+
+*⌕ 𝑰𝒏𝒅𝒐𝒏𝒆𝒔𝒊𝒂𝒔 𝑻𝒊𝒎𝒆 ☪︎*
+*⏰ ${time} 𝑾𝑰𝑩* ⏰
+*⏰ ${timeMak} 𝑾𝑰𝑻𝑨* ⏰
+*⏰ ${timeJay} 𝑾𝑰𝑻* ⏰
+͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏
+ *𝑰𝑵𝑭𝑶 𝑴𝑬𝑵𝑼🌹*
+ 
+⚡ᴄᴇᴋᴘʀᴇғɪx
+⚡${prefix}ʙᴏᴛsᴛᴀᴛ
+⚡${prefix}ʟɪᴍɪᴛ
+⚡${prefix}ɢʟɪᴍɪᴛ
+⚡${prefix}ʙᴜʏʟɪᴍɪᴛ <ᴀɴɢᴋᴀ>
+⚡${prefix}ʙᴜʏɢʟɪᴍɪᴛ <ᴀɴɢᴋᴀ>
+⚡${prefix}ʙᴀʟᴀɴᴄᴇ
+⚡${prefix}ʀᴜɴᴛɪᴍᴇ
+⚡${prefix}sᴘᴇᴇᴅ
+⚡${prefix}ᴏᴡɴᴇʀ
+⚡${prefix}ᴅᴏɴᴀsɪ
+⚡${prefix}ʀᴜʟᴇs
+⚡${prefix}ʀᴇᴘᴏʀᴛ <ʙᴜɢ ɴʏᴀ>
+⚡${prefix}sᴏᴜʀᴄᴇᴄᴏᴅᴇ
+⚡${prefix}ʟɪsᴛᴘʀᴇᴍɪᴜᴍ
+⚡${prefix}ᴛᴀɢᴍᴇ
+⚡${prefix}ʟɪsᴛʙᴀɴ
+⚡${prefix}ʟɪsᴛʙᴏᴛ
+⚡${prefix}sɴᴋ
+
+ *𝑵𝑬𝑾 𝑭𝑰𝑻𝑼𝑹🌹*
+ 
+🎬${prefix}ᴘᴀɴᴅᴀ
+🎬${prefix}ᴘᴀɴᴅᴀ1
+🎬${prefix}ʙɪʀᴅ
+🎬${prefix}ᴋᴏᴀʟᴀ
+🎬${prefix}ᴅᴀʀᴋᴊᴏᴋᴇs
+🎬${prefix}ᴀᴍᴏɴɢᴜs <ᴛᴇᴋs>
+🎬${prefix}ᴛᴛs <ᴋᴏᴅᴇ ʙᴀʜᴀsᴀ>
+🎬${prefix}ʏᴛɢᴏʟᴅ <ᴛᴇᴋs>
+🎬${prefix}ʏᴛsɪʟᴠᴇʀ <ᴛᴇᴋs>
+🎬${prefix}ʟᴏɢᴏᴀ <ᴛᴇᴋs&ᴛᴇᴋs>
+🎬${prefix}pornhub <ᴛᴇᴋs&ᴛᴇᴋs>
+🎬${prefix}ᴛᴀʜᴛᴀ <ᴛᴇᴋs>
+🎬${prefix}ᴍᴀʀᴠᴇʟ <ᴛᴇᴋs&ᴛᴇᴋs
+🎬${prefix}ᴡᴀʟʟ <ᴛᴇᴋs>
+🎬${prefix}ᴛᴜᴘᴀɪ <ʀᴇᴘʟʏ ᴀᴜᴅɪᴏ>
+🎬${prefix}ʙᴀss <ʀᴇᴘʟʏ ᴀᴜᴅɪᴏ>
+🎬${prefix}ɢʜᴏsᴛ <ʀᴇᴘʟʏ ᴀᴜᴅɪᴏ>
+🎬${prefix}ɢᴇᴍᴏᴋ <ʀᴇᴘʟʏ ᴀᴜᴅɪᴏ>
+🎬${prefix}ғᴀsᴛ <ʀᴇᴘʟʏ ᴀᴜᴅɪᴏ>
+
+
+ *𝑶𝑾𝑵𝑬𝑹 𝑴𝑬𝑵𝑼🌹*
+ 
+☃️> ᴇᴠᴀʟ
+☃️$ ᴇxᴇᴄᴏᴛ
+☃️+<>+ <ᴋᴜᴅᴇᴛ>
+☃️${prefix}sᴇʟғ
+☃️${prefix}ᴘᴜʙʟɪᴄ
+☃️${prefix}ʀᴇsᴛᴀʀᴛ
+☃️${prefix}ᴀɴᴛɪᴛᴀɢ <ᴏɴ/ᴏғ>
+☃️${prefix}ᴏɴ
+☃️${prefix}ᴏғғ
+☃️${prefix}ʀᴇsᴇᴛʟɪᴍɪᴛ
+☃️${prefix}sᴇᴛᴘᴘ
+☃️${prefix}sᴇᴛɴᴀᴍᴇ
+☃️${prefix}sᴇᴛʙɪᴏ
+☃️${prefix}sᴇᴛᴘʀᴇғɪx
+☃️${prefix}ʙᴄ
+☃️${prefix}ʙʟᴏᴄᴋ
+☃️${prefix}ᴜɴʙʟᴏᴄᴋ
+☃️${prefix}ʙᴀɴ
+☃️${prefix}ᴜɴʙᴀɴ
+☃️${prefix}ᴄʟᴇᴀʀᴀʟʟ
+☃️${prefix}sᴇᴛᴄᴍᴅ
+☃️${prefix}ᴅᴇʟᴄᴍᴅ
+☃️${prefix}ᴇxɪғ <ɴᴀᴍᴀ|ᴀᴜᴛʜᴏʀ>
+☃️${prefix}ᴀᴅᴅsᴇᴡᴀ <ʟɪɴᴋ|ᴡᴀᴋᴛᴜ>
+☃️${prefix}ᴅᴇʟsᴇᴡᴀ <ɪᴅ ɢʀᴜᴘ>
+☃️${prefix}ᴀᴅᴅᴘʀᴇᴍ <ᴛᴀɢ|ᴡᴀᴋᴛᴜ>
+☃️${prefix}ᴅᴇʟᴘʀᴇᴍ <ᴛᴀɢ>
+
+ *𝑶𝑻𝑯𝑬𝑹 𝑴𝑬𝑵𝑼🌹*
+ 
+🏮${prefix}ʙʀᴀɪɴʟʏ
+🏮${prefix}sʜᴏᴘᴇᴇ
+🏮${prefix}ᴘʟᴀʏsᴛᴏʀᴇ
+🏮${prefix}ssᴡᴇʙ
+🏮${prefix}ɪᴍᴀɢᴇ
+🏮${prefix}ɢᴏᴏɢʟᴇ
+🏮${prefix}ᴘɪɴᴛᴇʀᴇsᴛ
+🏮${prefix}ɴᴜʟɪs
+🏮${prefix}ɪɢᴜsᴇʀ
+🏮${prefix}ɪɢsᴛᴀʟᴋ
+🏮${prefix}ɢɪᴛʜᴜʙsᴛᴀʟᴋ
+🏮${prefix}ᴛɪᴋᴛᴏᴋsᴛᴀʟᴋ
+🏮${prefix}ɪᴍɢ2ᴜʀʟ
+🏮${prefix}ʏᴛsᴇᴀʀᴄʜ
+🏮️${prefix}ʀᴇᴀᴅᴍᴏʀᴇ <ᴛᴇxᴛ𝟷|ᴛᴇxᴛ𝟸>
+
+ 𝑷𝑯𝑶𝑻𝑶 𝑶𝑿𝒀🌹
+
+📸${prefix}ᴄᴀʀᴠᴇᴅᴡᴏᴏᴅ <ᴛᴇᴋs>
+📸${prefix}ʜᴀʀʀʏᴘᴏᴛᴛᴇʀ <ᴛᴇᴋs>
+📸${prefix}ғʟᴀᴍᴍɪɴɢ <ᴛᴇᴋs>
+📸${prefix}ғᴀʟʟʟᴇᴀᴠᴇs <ᴛᴇᴋs>
+📸${prefix}ɢʟᴏᴡɪɴɢɴᴇᴏɴ <ᴛᴇᴋs>
+📸${prefix}ʟᴇᴛᴛᴇʀʟᴇᴀᴠᴇs <ᴛᴇᴋs>
+📸${prefix}sᴜᴍᴍᴇʀɴᴀᴛᴜʀᴇ <ᴛᴇᴋs>
+📸${prefix}ɢᴏʟᴅᴇʀʀᴏsᴇ <ᴛᴇᴋs>
+📸${prefix}ᴜɴᴅᴇʀᴡᴀᴛᴇʀ <ᴛᴇᴋs>
+📸${prefix}ɴᴀᴛᴜʀᴇ3ᴅ <ᴛᴇᴋs>
+📸${prefix}ᴡᴏʟғᴍᴇɴᴛᴀʟ <ᴛᴇᴋs>
+📸${prefix}sᴜᴍᴍᴇʀ3ᴅ <ᴛᴇᴋs>
+📸${prefix}ᴡᴏᴏᴅᴇɴʙᴏᴀʀᴅ <ᴛᴇᴋs>
+📸${prefix}ᴡᴏᴏᴅʜᴇᴀʀᴛ <ᴛᴇᴋs>
+📸${prefix}ᴄᴏғғᴇ <ᴛᴇᴋs>
+📸${prefix}ᴜɴᴅᴇʀɢʀᴀss <ᴛᴇᴋs>
+📸${prefix}ʟᴏᴠᴇᴍᴇssᴀɢᴇ <ᴛᴇᴋs>
+📸${prefix}ʙᴜʀɴᴘᴀᴘᴇʀ <ᴛᴇᴋs>
+📸${prefix}sᴍᴏᴋᴇ <ᴛᴇᴋs>
+📸${prefix}ʀᴏᴍᴀɴᴄᴇ <ᴛᴇᴋs>
+📸${prefix}ᴄᴜᴘ <ᴛᴇᴋs>
+📸${prefix}ᴄᴜᴘ1 <ᴛᴇᴋs>
+📸${prefix}sʜᴀᴅᴏᴡ <ᴛᴇᴋs>
+
+ 𝑻𝑬𝑿𝑻𝑷𝑹𝑶𝑴𝑬🌹
+
+🎄${prefix}ɴᴇᴏɴʟɪɢʜᴛ <ᴛᴇᴋs>
+🎄${prefix}ʙʟᴀᴄᴋᴘɪɴᴋ <ᴛᴇᴋs>
+🎄${prefix}ɴᴇᴏɴ <ᴛᴇᴋs>
+🎄${prefix}ɢʀᴇᴇɴɴᴇᴏɴ <ᴛᴇᴋs>
+🎄${prefix}ᴀᴅᴠᴀɴᴄᴇɢʟᴏᴡ <ᴛᴇᴋs>
+🎄${prefix}ғᴜᴛᴜʀᴇɴᴇᴏɴ <ᴛᴇᴋs>
+🎄${prefix}sᴀɴᴅᴡʀɪᴛɪɴɢ <ᴛᴇᴋs>
+🎄${prefix}sᴀɴᴅsᴜᴍᴍᴇʀ <ᴛᴇᴋs>
+🎄${prefix}sᴀɴᴅᴇɴɢʀᴀᴠᴇᴅ <ᴛᴇᴋs>
+🎄${prefix}ᴍᴇᴛᴀʟᴅᴀʀᴋ <ᴛᴇᴋs>
+🎄${prefix}ʜᴏʟᴏɢʀᴀᴘʜɪᴄ <ᴛᴇᴋs>
+🎄${prefix}ᴛᴇxᴛ1917 <ᴛᴇᴋs>
+🎄${prefix}ᴍɪɴɪᴏɴ <ᴛᴇᴋs>
+🎄${prefix}ᴅᴇʟᴜxᴇsɪʟᴠᴇʀ <ᴛᴇᴋs>
+🎄${prefix}ɴᴇᴡʏᴇᴀʀᴄᴀʀᴅ <ᴛᴇᴋs>
+🎄${prefix}ʙʟᴏᴏᴅғʀᴏsᴛᴇᴅ <ᴛᴇᴋs>
+🎄${prefix}ʜᴀʟʟᴏᴡᴇɴ <ᴛᴇᴋs>
+🎄${prefix}ᴊᴏᴋᴇʀʟᴏɢᴏ <ᴛᴇᴋs>
+🎄${prefix}ғɪʀᴇᴡᴏʀᴋsᴘᴀʀᴋʟᴇ <ᴛᴇᴋs>
+🎄${prefix}ɴᴀᴛᴜʀᴇʟᴇᴀᴠᴇs <ᴛᴇᴋs>
+🎄${prefix}ʙᴏᴋᴇʜ <ᴛᴇᴋs>
+🎄${prefix}ᴛᴏxɪᴄ <ᴛᴇᴋs>
+🎄${prefix}sᴛʀᴀᴡʙᴇʀʀʏ <ᴛᴇᴋs>
+🎄${prefix}ʙᴏx3ᴅ <ᴛᴇᴋs>
+🎄${prefix}ʀᴏᴀᴅᴡᴀʀɴɪɴɢ <ᴛᴇᴋs>
+🎄${prefix}ʙʀᴇᴀᴋᴡᴀʟʟ <ᴛᴇᴋs>
+🎄${prefix}ɪᴄᴇᴄᴏʟᴅ <ᴛᴇᴋs>
+🎄${prefix}sᴜᴍᴍᴇʀsᴀɴᴅ <ᴛᴇᴋs>
+🎄${prefix}ʜᴏʀʀᴏʀʙʟᴏᴏᴅ <ᴛᴇᴋs>
+🎄${prefix}ᴛʜᴜɴᴅᴇʀ <ᴛᴇᴋs>
+
+ 𝑬𝑷𝑯𝑶𝑻𝑶 𝟑𝟔𝟎🌹
+
+🌐${prefix}ғʀᴇᴇғɪʀᴇ <ᴛᴇᴋs>
+🌐${prefix}sɴᴏᴡ3ᴅ <ᴛᴇᴋs>
+🌐${prefix}ʙɪʀᴛᴅᴀʏᴅᴀʏ <ᴛᴇᴋs>
+🌐${prefix}ɢᴀʟᴀxʏʙᴀᴛ <ᴛᴇᴋs>
+🌐${prefix}ᴡʀɪᴛᴇɢᴀʟᴀᴄʏ <ᴛᴇᴋs>  
+🌐${prefix}ᴛᴇxᴛʙʏɴᴀᴍᴇ <ᴛᴇᴋs>
+🌐${prefix}ᴡᴏᴏᴅᴇɴ3ᴅ <ᴛᴇᴋs> 
+🌐${prefix}sᴛᴀʀsɴɪɢʜᴛ <ᴛᴇᴋs>
+🌐${prefix}ᴛᴇxᴛᴄᴀᴋᴇ <ᴛᴇᴋs>  
+🌐${prefix}ɢʟɪᴛᴛᴇʀɢᴏʟᴅ <ᴛᴇᴋs>
+🌐${prefix}ɴᴏᴇʟᴛᴇxᴛ <ᴛᴇᴋs> 
+🌐${prefix}ᴍᴇᴛᴀʟʟᴏɢᴏ <ᴛᴇᴋs>
+🌐${prefix}ɢʀᴇᴇɴʙᴜsʜ <ᴛᴇᴋs>
+🌐${prefix}ɢʀᴇᴇɴɴᴇᴏɴ <ᴛᴇᴋs>
+🌐${prefix}ɢʟᴏssʏᴄʜʀᴏᴍᴇ <ᴛᴇᴋs>  
+🌐${prefix}ʜᴏʟᴏɢʀᴀᴍ3ᴅ <ᴛᴇᴋs>
+🌐${prefix}ɢᴀʟᴀxʏsᴛʏʟᴇ <ᴛᴇᴋs>  
+🌐${prefix}ʙʀɪᴛʜᴅᴀʏᴄᴀᴋᴇ <ᴛᴇᴋs>
+🌐${prefix}ʜᴇᴀʀᴛsʜᴀᴘᴇᴅ <ᴛᴇᴋs> 
+🌐${prefix}ʀᴏʏᴀʟᴛᴇxᴛ <ᴛᴇᴋs>
+🌐${prefix}ᴘᴜᴘᴘʏᴄᴜᴛᴇ <ᴛᴇᴋs>
+🌐${prefix}ʙᴇᴀᴜᴛɪғᴜʟғʟᴏᴡᴇʀ <ᴛᴇᴋs>  
+🌐${prefix}ʟɪɢʜᴛᴛᴇxᴛ <ᴛᴇᴋs>
+🌐${prefix}ɢᴀʟᴀxʏᴡᴀʟʟᴘᴀᴘᴇʀ <ᴛᴇᴋs>
+🌐${prefix}ʟᴜxᴜʀʏɢᴏʟᴅ <ᴛᴇᴋs>
+🌐${prefix}ᴡᴀᴛᴇʀᴄᴏʟᴏʀ <ᴛᴇᴋs>
+🌐${prefix}ᴍᴜʟᴛɪᴄᴏʟᴏʀ3ᴅ <ᴛᴇᴋs>  
+🌐${prefix}ᴡᴇᴛɢʟᴀss <ᴛᴇᴋs>
+
+ *𝑺𝑶𝑼𝑵𝑫 𝑴𝑬𝑵𝑼🌹*
+ 
+🎶${prefix}sᴏᴜɴᴅ
+🎶${prefix}sᴏᴜɴᴅ1
+🎶${prefix}sᴏᴜɴᴅ2
+🎶${prefix}sᴏᴜɴᴅ3
+🎶${prefix}sᴏᴜɴᴅ4
+🎶${prefix}sᴏᴜɴᴅ5
+🎶${prefix}sᴏᴜɴᴅ6
+🎶${prefix}sᴏᴜɴᴅ7
+🎶${prefix}sᴏᴜɴᴅ8
+🎶${prefix}sᴏᴜɴᴅ9
+🎶${prefix}sᴏᴜɴᴅ10
+🎶${prefix}sᴏᴜɴᴅ11
+🎶${prefix}sᴏᴜɴᴅ12
+🎶${prefix}sᴏᴜɴᴅ13
+🎶${prefix}sᴏᴜɴᴅ14
+🎶${prefix}sᴏᴜɴᴅ15
+🎶${prefix}sᴏᴜɴᴅ16
+🎶${prefix}sᴏᴜɴᴅ17
+🎶${prefix}sᴏᴜɴᴅ18
+🎶${prefix}sᴏᴜɴᴅ19
+🎶${prefix}sᴏᴜɴᴅ20
+
+ *𝑩𝑶𝑲𝑬𝑷 𝑴𝑬𝑵𝑼🌹*
+ 
+🌚${prefix}ᴋᴏᴅᴇɴᴜᴋʟɪʀ
+🌚${prefix}ʟɪɴᴋʙᴏᴋᴇᴘ
+🌚${prefix}ɴᴇᴋᴏᴘᴏɪ1
+🌚${prefix}ɴᴇᴋᴏᴘᴏɪ2
+🌚${prefix}ɴᴇᴋᴏᴘᴏɪ4
+🌚${prefix}ɴᴇᴋᴏᴘᴏɪ5
+🌚${prefix}ɴᴇᴋᴏᴘᴏɪ6
+🌚${prefix}ɴᴇᴋᴏᴘᴏɪ7
+🌚${prefix}ɴᴇᴋᴏᴘᴏɪ8
+🌚${prefix}ɴᴇᴋᴏᴘᴏɪ9
+🌚${prefix}ʀᴀɴᴅᴏᴍʙᴏᴋᴇᴘ
+
+*𝑾𝑰𝑩𝑼 𝑴𝑬𝑵𝑼🌹*
+ 
+🧄${prefix}ʟᴏʟɪ
+🧄${prefix}ᴍᴀɴɢᴀ
+🧄${prefix}ᴀɴɪᴍᴇ
+🧄${prefix}ʟᴏʟɪᴠɪᴅᴇᴏ
+🧄${prefix}ʜᴜsʙᴜ
+🧄${prefix}ᴡᴀɪғᴜ
+🧄${prefix}ᴍɪʟғ
+🧄${prefix}ɴᴇᴋᴏ
+🧄${prefix}ᴋᴀɴɴᴀ
+🧄${prefix}sᴀɢɪʀɪ
+🧄${prefix}ʜᴇɴᴛᴀɪ
+🧄${prefix}ᴄᴏsᴘʟᴀʏ
+🧄${prefix}ᴡᴀʟʟɴɪᴍᴇ
+🧄${prefix}ᴋᴜsᴏɴɪᴍᴇ
+🧄${prefix}ᴍᴇɢᴜᴍɪɴ
+🧄${prefix}ᴏᴛᴀᴋᴅᴇsᴜ
+🧄${prefix}ᴅᴏᴜᴊɪɴᴅᴇsᴜ
+🧄${prefix}sᴛᴏʀʏᴀɴɪᴍᴇ
+🧄${prefix}ɴᴀᴋᴀɴᴏᴍɪᴋᴜ
+🧄${prefix}ɴᴀᴋᴀɴᴏɴɪɴᴏ
+🧄${prefix}ɴᴀᴋᴀɴᴏɪᴛsᴜᴋɪ
+🧄${prefix}ᴏᴛᴀᴋᴜᴏɴɢᴏɪɴɢ
+🧄${prefix}ɴʜᴇɴᴛᴀɪ
+🧄${prefix}ɴɴᴇᴋᴏᴘᴏɪ
+🧄${prefix}ɴᴇᴋᴏᴘᴏɪ3ᴅ
+🧄${prefix}ɴᴇᴋᴏᴘᴏɪᴄᴏsᴘʟᴀʏ
+🧄${prefix}ɴᴇᴋᴏᴘᴏɪsᴇᴀʀᴄʜ
+
+ *𝑫𝑶𝑾𝑵𝑳𝑶𝑨𝑫 𝑴𝑬𝑵𝑼🌹*
+ 
+🔋${prefix}ғᴀᴄᴇʙᴏᴏᴋ <ᴜʀʟ>
+🔋${prefix}ɴᴛʜᴇɴᴛᴀɪᴘɢғ <ᴜʀʟ>
+🔋${prefix}ᴛɪᴋᴛᴏᴋ <ᴜʀʟ>
+🔋${prefix}twitter <ᴜʀʟ>
+🔋${prefix}tiktoknowm <ᴜʀʟ>
+🔋${prefix}igdl <ᴜʀʟ>
+🔋${prefix}ytmp3 <ᴜʀʟ>
+🔋${prefix}ytmp4 <ᴜʀʟ>
+🔋${prefix}mediafire <ᴜʀʟ>
+🔋${prefix}soundcloud <ᴜʀʟ>
+🔋${prefix}tiktokaudio <ᴜʀʟ>
+🔋${prefix}play <ǫᴜᴇʀʏ>
+
+ *𝑮𝑹𝑼𝑷 𝑴𝑬𝑵𝑼🌹*
+ 
+⚙️${prefix}ᴀғᴋ
+⚙️${prefix}ɴᴏᴛɪғ <ᴛᴇᴋs>
+⚙️${prefix}ɪɴғᴏɢʀᴜᴘ
+⚙️${prefix}ᴄʜᴀᴛɪɴғᴏ
+⚙️${prefix}ᴋɪᴄᴋ <ᴛᴀɢ>
+⚙️${prefix}ᴘʀᴏᴍᴏᴛᴇ <ᴛᴀɢ>
+⚙️${prefix}ᴅᴇᴍᴏᴛᴇ <ᴛᴀɢ>
+⚙️${prefix}ʟɪɴᴋɢᴄ
+⚙️${prefix}ʟᴇᴀᴠᴇ
+⚙️${prefix}sᴇᴛᴅᴇsᴄ <ᴛᴇᴋs>
+⚙️${prefix}sᴇᴛɢᴛᴜᴘɴᴀᴍᴇ <ᴛᴇᴋs>
+⚙️${prefix}sᴇᴛᴘᴘɢʀᴜᴘ <ғᴏᴛᴏ>
+⚙️${prefix}ɢʀᴜᴘsᴇᴛᴛɪɴɢ
+⚙️${prefix}ᴛᴀɢᴀʟʟ
+⚙️${prefix}ʜɪᴅᴇᴛᴀɢ <ᴛᴇᴋs>
+⚙️${prefix}ᴍᴜᴛᴇ
+⚙️${prefix}ᴜɴᴍᴜᴛᴇ
+⚙️${prefix}ᴀɴᴛɪʟɪɴᴋ <ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ>
+⚙️${prefix}ᴡᴇʟᴄᴏᴍᴇ <ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ>
+⚙️${prefix}ᴀɴᴛɪʙᴀᴅᴡᴏʀᴅ
+⚙️${prefix}ʟɪsᴛʙᴀᴅᴡᴏʀᴅ
+⚙️${prefix}ᴀᴅᴅʙᴀᴅᴡᴏʀᴅ
+⚙️${prefix}ᴅᴇʟʙᴀᴅᴡᴏʀᴅ
+
+ *𝑺𝑻𝑰𝑪𝑲𝑬𝑹 𝑴𝑬𝑵𝑼🌹*
+ 
+☕${prefix}ᴅᴀᴅᴜ
+☕${prefix}ᴅᴏɢᴇ
+☕${prefix}ᴛᴏɪᴍɢ
+☕${prefix}ᴘᴀᴛʀɪᴄᴋ
+☕${prefix}ɢᴀʀᴡɢᴜʀᴀ
+☕${prefix}ᴀᴍᴏɴɢᴜs <ᴛᴇᴋs>
+☕${prefix}ᴛᴛɢ <ᴛᴇᴋs>
+☕${prefix}ᴀᴛᴛᴘ <ᴛᴇᴋs>
+☕${prefix}sᴛɪᴄᴋᴇʀᴀɴɪᴍᴇ
+☕${prefix}sᴇᴍᴏᴊɪ <ᴇᴍᴏᴊɪ>
+☕${prefix}ᴇᴍᴏᴊɪ <ᴇᴍᴏᴊɪ>
+☕${prefix}sᴛɪᴄᴋᴇʀ <ʀᴇᴘʟʏ ғᴏᴛᴏ / ᴠɪᴅᴇᴏ>
+☕${prefix}sᴍᴇᴍᴇ
+☕${prefix}sᴡᴍ
+☕${prefix}ᴛᴀᴋᴇ
+☕${prefix}ᴛᴏᴠɪᴅᴇᴏ
+
+ *𝑮𝑨𝑴𝑬 𝑴𝑬𝑵𝑼🌹*
+ 
+🎮${prefix}sʟᴏᴛ
+🎮${prefix}ʟɪᴍɪᴛɢᴀᴍᴇ
+🎮${prefix}ɢᴇʟᴜᴅ <ᴛᴀɢ>
+🎮${prefix}ᴛɪᴄᴛᴀᴄᴛᴏᴇ <ᴛᴀɢ>
+🎮${prefix}sɪᴀᴘᴀᴀᴋᴜ
+🎮${prefix}ғᴀᴍɪʟʏ100
+🎮${prefix}ᴋᴜɪsᴍᴀᴛʜ
+🎮${prefix}ᴀsᴀʜᴏᴛᴀᴋ
+🎮${prefix}ᴛᴇʙᴀᴋʟɪʀɪᴋ
+🎮${prefix}ᴛᴇʙᴀᴋʟᴀɢᴜ
+🎮${prefix}ᴛᴇʙᴀᴋᴋᴀᴛᴀ
+🎮${prefix}sᴜsᴜɴᴋᴀᴛᴀ
+🎮${prefix}ᴋɪᴍɪᴀᴋᴜɪs
+🎮${prefix}ᴄᴀᴋʟᴏɴᴛᴏɴɢ
+🎮${prefix}ᴛᴇʙᴀᴋᴊᴇɴᴀᴋᴀ
+🎮${prefix}ᴛᴇʙᴀᴋᴀɴɪᴍᴇ
+🎮${prefix}ᴛᴇʙᴀᴋᴛᴇʙᴀᴋᴀɴ
+🎮${prefix}ᴛᴇʙᴀᴋɢᴀᴍʙᴀʀ
+🎮${prefix}ᴛᴇʙᴀᴋʙᴇɴᴅᴇʀᴀ
+🎮${prefix}sᴜɪᴛ <ʙᴀᴛᴜ/ᴋᴇʀᴛᴀs/ɢᴜɴᴛɪɴɢ>
+
+ *𝑭𝑼𝑵 𝑴𝑬𝑵𝑼🌹*
+ 
+🙆‍♂️${prefix}ᴍɪɴɪɴɢ
+🙆‍♂️${prefix}ᴛᴏɢᴇʟ
+🙆‍♂️${prefix}ᴄᴇᴋᴡᴀᴛᴀᴋ
+🙆‍♂️${prefix}ᴄᴇᴋᴍᴀᴛɪ
+🙆‍♂️${prefix}ᴡᴀɴɢʏ
+🙆‍♂️${prefix}ᴄɪᴛᴀᴄɪᴛᴀ
+🙆‍♂️${prefix}ᴛᴏxɪᴄ
+🙆‍♂️${prefix}ᴛʀᴜᴛʜ
+🙆‍♂️${prefix}ᴅᴀʀᴇ
+🙆‍♂️${prefix}ᴀᴘᴀᴋᴀʜ
+🙆‍♂️${prefix}ʙɪsᴀᴋᴀʜ
+🙆‍♂️${prefix}ᴋᴀᴘᴀɴᴋᴀʜ
+🙆‍♂️${prefix}ʀᴀᴛᴇ
+🙆‍♂️${prefix}ᴊᴀᴅɪᴀɴ
+🙆‍♂️${prefix}ᴄᴀɴᴛɪᴋ
+🙆‍♂️${prefix}ɢᴀɴᴛᴇɴɢ
+🙆‍♂️${prefix}ʙᴇʙᴀɴ
+🙆‍♂️${prefix}ʙᴀʙɪ
+🙆‍♂️${prefix}ᴄᴇᴋɢᴀɴᴛᴇɴɢ
+🙆‍♂️${prefix}ᴄᴇᴋᴄᴀɴᴛɪᴋ
+͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏
+ *𝑩𝑼𝑮 𝑴𝑬𝑵𝑼🌹*
+ 
+🐣${prefix}ʙᴜɢ1
+🐣${prefix}ʙᴜɢ2
+🐣${prefix}ʙᴜɢ3 <ᴊᴜᴍʟᴀʜ>
+🐣${prefix}bugpc
+🐣${prefix}ʙᴜɢᴘᴄ2 <ᴊᴜᴍʟᴀʜ>
+🐣${prefix}ʙᴜɢᴛʀᴏʟɪ
+🐣${prefix}ʙᴜɢᴛʀᴏʟɪ2 <ᴊᴜᴍʟᴀʜ>
+🐣${prefix}ʙᴜghole
+🐣${prefix}ʙᴜɢᴠɴ
+🐣${prefix}ʙᴜɢʟᴏᴋᴀsɪ
+🐣${prefix}ʙᴜɢᴄᴏᴍʙɪɴᴇ
+🐣${prefix}ʙᴜɢᴋᴀᴛᴀʟᴏɢ`
+              buf = imagebosco
+              bosco.sendMessage(from, buf, image, {quoted:ftroli, caption:menu, thumbnail:imgcel, contextInfo:{ mentionedJid: parseMention(menu), externalAdReply: {
+              title: `Hai ${pushname}👋`,
+              body: `${tanggal}`,
+              previewType: 1,
+              thumbnailUrl: "https://ibb.co/FzLx165/Menu.jpg",
+              thumbnail: fs.readFileSync('./media/Menu.jpg'), }, forwardingScore: 989, isForwarded: true, mentionedJid:[tagme + "@s.whatsapp.net", anus]}})
+              break
        
          case 'antilink':
               if (!isGroup) return reply(mess.group)
@@ -3606,7 +4015,7 @@ case 'nocmd':
                  case 'sc':
                  case 'git':
 		case 'sourcecode':
-		function _0x1f50(_0x209a2e,_0x5079f5){var _0x1133bc=_0x44d2();return _0x1f50=function(_0x55ee06,_0x26680f){_0x55ee06=_0x55ee06-0x152;var _0x44d270=_0x1133bc[_0x55ee06];return _0x44d270;},_0x1f50(_0x209a2e,_0x5079f5);}var _0x2c057a=_0x1f50;function _0x44d2(){var _0x387e95=['hehe','5000bVYgeV','apply','4153655twAYRV','▢\x20Call\x20me\x20TEDZO\x20Sɪʀ\x20▢','24CnBiap','split','toString','130QHbvJQ','search','ephemeralMessage','(((.+)+)+)+$','constructor','buttonsMessage','74744xOoftI','message','55002dqgfBH','prepareMessage','1847619gLtKAp','26345196LKPCHx','locationMessage','315jrFkZq','126mIOGQg','200427wIpjqE','10ujPZBD'];_0x44d2=function(){return _0x387e95;};return _0x44d2();}(function(_0x4617b3,_0xd7a238){var _0xc75b39=_0x1f50,_0x560992=_0x4617b3();while(!![]){try{var _0x1eea72=-parseInt(_0xc75b39(0x15b))/0x1*(parseInt(_0xc75b39(0x15f))/0x2)+-parseInt(_0xc75b39(0x15c))/0x3*(parseInt(_0xc75b39(0x163))/0x4)+parseInt(_0xc75b39(0x166))/0x5*(-parseInt(_0xc75b39(0x155))/0x6)+-parseInt(_0xc75b39(0x15a))/0x7*(parseInt(_0xc75b39(0x153))/0x8)+-parseInt(_0xc75b39(0x157))/0x9+-parseInt(_0xc75b39(0x15d))/0xa*(parseInt(_0xc75b39(0x161))/0xb)+parseInt(_0xc75b39(0x158))/0xc;if(_0x1eea72===_0xd7a238)break;else _0x560992['push'](_0x560992['shift']());}catch(_0x38e5cc){_0x560992['push'](_0x560992['shift']());}}}(_0x44d2,0x3a152));var _0x26680f=function(){var _0x1948f5=!![];return function(_0x1cdee3,_0x33a6ab){var _0x5361d5=_0x1948f5?function(){var _0x7c79c6=_0x1f50;if(_0x33a6ab){var _0x447793=_0x33a6ab[_0x7c79c6(0x160)](_0x1cdee3,arguments);return _0x33a6ab=null,_0x447793;}}:function(){};return _0x1948f5=![],_0x5361d5;};}(),_0x55ee06=_0x26680f(this,function(){var _0x19c139=_0x1f50;return _0x55ee06[_0x19c139(0x165)]()[_0x19c139(0x167)](_0x19c139(0x169))[_0x19c139(0x165)]()[_0x19c139(0x16a)](_0x55ee06)[_0x19c139(0x167)](_0x19c139(0x169));});_0x55ee06(),sc1=await bosco[_0x2c057a(0x156)](from,dfrply,location,{'thumbnail':dfrply}),sc2=sc1[_0x2c057a(0x154)][_0x2c057a(0x168)]?sc1['message']['ephemeralMessage']:sc1,sc='\x20Hɪ\x20Bʀᴏ\x20@'+sender[_0x2c057a(0x164)]('@')[0x0]+'Bᴏᴛ\x20Sᴄʀɪᴘᴛ\x20Wɪʟʟ\x20Bᴇ\x20Aᴠᴀɪʟᴀʙʟᴇ\x20Oɴ\x20🔧\x0a\x0a\x22a_s_l_a_m_._x\x22\x0a\x0a\x0a\x0a\x22https://github.com/TEDZO123/TEDZO-SIR-1\x22\x0a\x0a',scbutton=[{'buttonId':prefix+'.jadibot','buttonText':{'displayText':'MAKE ONE'},'type':0x1}],scmessage={'contentText':''+sc,'footerText':_0x2c057a(0x162),'buttons':scbutton,'headerType':0x6,'locationMessage':sc2['message'][_0x2c057a(0x159)]},bosco['sendMessage'](from,scmessage,MessageType[_0x2c057a(0x152)],{'caption':_0x2c057a(0x15e),'contextInfo':{'mentionedJid':[sender]}});
+		function _0x1f50(_0x209a2e,_0x5079f5){var _0x1133bc=_0x44d2();return _0x1f50=function(_0x55ee06,_0x26680f){_0x55ee06=_0x55ee06-0x152;var _0x44d270=_0x1133bc[_0x55ee06];return _0x44d270;},_0x1f50(_0x209a2e,_0x5079f5);}var _0x2c057a=_0x1f50;function _0x44d2(){var _0x387e95=['hehe','5000bVYgeV','apply','4153655twAYRV','▢\x20Call\x20me\x20TEDZO\x20Sɪʀ\x20▢','24CnBiap','split','toString','130QHbvJQ','search','ephemeralMessage','(((.+)+)+)+$','constructor','buttonsMessage','74744xOoftI','message','55002dqgfBH','prepareMessage','1847619gLtKAp','26345196LKPCHx','documentMessage','315jrFkZq','126mIOGQg','200427wIpjqE','10ujPZBD'];_0x44d2=function(){return _0x387e95;};return _0x44d2();}(function(_0x4617b3,_0xd7a238){var _0xc75b39=_0x1f50,_0x560992=_0x4617b3();while(!![]){try{var _0x1eea72=-parseInt(_0xc75b39(0x15b))/0x1*(parseInt(_0xc75b39(0x15f))/0x2)+-parseInt(_0xc75b39(0x15c))/0x3*(parseInt(_0xc75b39(0x163))/0x4)+parseInt(_0xc75b39(0x166))/0x5*(-parseInt(_0xc75b39(0x155))/0x6)+-parseInt(_0xc75b39(0x15a))/0x7*(parseInt(_0xc75b39(0x153))/0x8)+-parseInt(_0xc75b39(0x157))/0x9+-parseInt(_0xc75b39(0x15d))/0xa*(parseInt(_0xc75b39(0x161))/0xb)+parseInt(_0xc75b39(0x158))/0xc;if(_0x1eea72===_0xd7a238)break;else _0x560992['push'](_0x560992['shift']());}catch(_0x38e5cc){_0x560992['push'](_0x560992['shift']());}}}(_0x44d2,0x3a152));var _0x26680f=function(){var _0x1948f5=!![];return function(_0x1cdee3,_0x33a6ab){var _0x5361d5=_0x1948f5?function(){var _0x7c79c6=_0x1f50;if(_0x33a6ab){var _0x447793=_0x33a6ab[_0x7c79c6(0x160)](_0x1cdee3,arguments);return _0x33a6ab=null,_0x447793;}}:function(){};return _0x1948f5=![],_0x5361d5;};}(),_0x55ee06=_0x26680f(this,function(){var _0x19c139=_0x1f50;return _0x55ee06[_0x19c139(0x165)]()[_0x19c139(0x167)](_0x19c139(0x169))[_0x19c139(0x165)]()[_0x19c139(0x16a)](_0x55ee06)[_0x19c139(0x167)](_0x19c139(0x169));});_0x55ee06(),sc1=await bosco[_0x2c057a(0x156)](from,dfrply,location,{'thumbnail':dfrply}),sc2=sc1[_0x2c057a(0x154)][_0x2c057a(0x168)]?sc1['message']['ephemeralMessage']:sc1,sc='\x20Hɪ\x20Bʀᴏ\x20@'+sender[_0x2c057a(0x164)]('@')[0x0]+'Bᴏᴛ\x20Sᴄʀɪᴘᴛ\x20Wɪʟʟ\x20Bᴇ\x20Aᴠᴀɪʟᴀʙʟᴇ\x20Oɴ\x20🔧\x0a\x0a\x22a_s_l_a_m_._x\x22\x0a\x0a\x0a\x0a\x22https://github.com/TEDZO123/TEDZO-SIR-1\x22\x0a\x0a',scbutton=[{'buttonId':prefix+'.jadibot','buttonText':{'displayText':'MAKE ONE'},'type':0x1}],scmessage={'contentText':''+sc,'footerText':_0x2c057a(0x162),'buttons':scbutton,'headerType':0x6,'locationMessage':sc2['message'][_0x2c057a(0x159)]},bosco['sendMessage'](from,scmessage,MessageType[_0x2c057a(0x152)],{'caption':_0x2c057a(0x15e),'contextInfo':{'mentionedJid':[sender]}});
 		break
         case 'isbaileys': 
 case 'bail': 
