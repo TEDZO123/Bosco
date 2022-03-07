@@ -292,7 +292,7 @@ module.exports = bosco = async (bosco, mek) => {
             return Math.floor(Math.random() * angka) + 1
         }
         const reply = (teks) => {
-	      bosco.sendMessage(from, teks, text, { thumbnail: denis, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: false, "externalAdReply": { "title": `${' '}FOLLOW MY IG : Tedzo SIR${''}${''}`, "body": `TEDZO SIR B https://youtu.be/BjTnWpDlmrkOT`, "previewType": 'DOCUMENT', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}},})
+	      bosco.sendMessage(from, teks, text, { thumbnail: denis, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: false, "externalAdReply": { "title": `${' '}FOLLOW MY IG : Tedzo SIR${''}${''}`, "body": `TEDZO SIR BOT`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}},})
         }
         const sendMess = (hehe, teks) => {
            bosco.sendMessage(hehe, teks, text)
@@ -658,7 +658,7 @@ sendEphemeral: false,
            if(mime.split("/")[0] === "audio"){
            mime = Mimetype.mp4Audio
 }
-           bosco.sendMessage(to, media, type, {quoted: mek, "externalAdReply": { "title": `${' '}FOLLOW MY IG : TEDZO SIR${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'DOCUMENT', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}, mimetype: mime, caption: text, mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document", contextInfo: {"mentionedJid": mids}})
+           bosco.sendMessage(to, media, type, {quoted: mek, "externalAdReply": { "title": `${' '}FOLLOW MY IG : TEDZO SIR${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}, mimetype: mime, caption: text, thumbnail: Buffer.alloc(0), contextInfo: {"mentionedJid": mids}})
                      
            fs.unlinkSync(filename)
 });
@@ -972,7 +972,7 @@ sendEphemeral: false,
         groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
         privat = bosco.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
         totalChat = await bosco.chats.all()
-        bosco1 = await bosco.prepareMessage(from, denis, document, {thumbnail: denis})
+        bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
         bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
         timestampe = speed();
         latensie = speed() - timestampe
@@ -1433,7 +1433,7 @@ teks = `
                               "rowId": "ownermenu"
                            },
                            {
-                              "title": "𝐄??𝐈𝐓 𝐌𝐄𝐍𝐔",
+                              "title": "𝐄𝐃𝐈𝐓 𝐌𝐄𝐍𝐔",
                               "rowId": "editmenu"
                            },
                            {
